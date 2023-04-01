@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "@dendronhq/dendron-cli": "^0.106.0"
+    "@dendronhq/dendron-cli": "^0.119.0"
   }
 }
