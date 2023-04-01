@@ -1,0 +1,8 @@
+{
+  "name": "dustin-barnes-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@dendronhq/dendron-cli": "^0.106.0"
+  }
+}
