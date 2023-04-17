@@ -1,17 +1,18 @@
 ---
 id: root
-title: root
+title: Dustin Barnes
 desc: ""
-updated: 1681361558768
+updated: 1681759798693
 created: 1595961348801
 ---
 
 # Dustin Barnes
 
-This is my blog. It's not monetized, there's no analytics. It's probably not great at SEO. But it's simple, it's text-based, and it's interconnected. 
+This is my digital garden. It's not monetized, there's no analytics. It's probably not great at SEO. But it's simple, it's text-based, and it's interconnected. 
 
-I am using a tool called dendron to make this site. It's similar to other personal knowledge management (PKM) tools, but it has some advantages
+A few things of note: 
 
-Check out my GitHub: https://github.com/dustinbarnes
-
-Sharing dotfiles, as is the custom: https://github.com/dustinbarnes/dotfiles
+- My main GitHub profile is https://github.com/dustinbarnes
+- This blog is built from https://github.com/dustinbarnes/blog. 
+  - Notice the GitHub Actions powering the publish process: https://github.com/dustinbarnes/blog/blob/main/.github/workflows/publish.yml
+- My dotfiles repo: https://github.com/dustinbarnes/dotfiles
