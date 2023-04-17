@@ -1,8 +1,8 @@
 ---
 id: 12-factor-app
-title: 12 Factor App
+title: 12-Factor App
 desc: ''
-updated: 1680545630200
+updated: 1680939942022
 created: 1680511900836
 ---
 

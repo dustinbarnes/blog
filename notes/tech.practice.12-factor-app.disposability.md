@@ -2,22 +2,22 @@
 id: 12fa-09-disposability
 title: Disposability
 desc: ''
-updated: 1680548917243
+updated: 1680890212275
 created: 1680548666714
 ---
 > Maximize robustness with fast startup and graceful shutdown
 
-- Processes are dispoable.
+- [[tech.practice.12-factor-app.processes]] are dispoable.
     - Elastic scaling
-    - Rapid deployment of code or Configuration
+    - Rapid deployment of code or [[tech.practice.12-factor-app.configuration]]
 - Minimise startup time.
     - Ready in second(s) from cold
     - Easier to relocate
     - Easier to use spot instances
-- Processes shut down gracefully
-    - Stop listening on the service port.
+- [[tech.practice.12-factor-app.processes]] shut down gracefully
+    - Stop listening on the service [[port|tech.practice.12-factor-app.port-binding]]
     - Let current transactions complete (draining)
-- Processes should be robust against sudden death in case of hardware failure:
+- [[tech.practice.12-factor-app.processes]] should be robust against sudden death in case of hardware failure:
     - Queueing backend
     - Return jobs to the queue on failure.
 

@@ -2,13 +2,13 @@
 id: 12fa-11-logs
 title: Logs
 desc: ''
-updated: 1680549346026
+updated: 1680890119775
 created: 1680549178330
 ---
 > Treat logs as event streams
 
 - Logs provide insight into a running app's behaviour.
-- Logs are streams of aggregated, time-ordered events collected from output streams of Processes and Backing services.
+- Logs are streams of aggregated, time-ordered events collected from output streams of [[tech.practice.12-factor-app.processes]] and [[tech.practice.12-factor-app.backing-services]].
     - Raw form is typically text.
     - We can mutate them into more structured data formats.
     - No fixed beginning or end.
