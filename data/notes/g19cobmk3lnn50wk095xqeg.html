@@ -1,0 +1,28 @@
+<h1 id="semver-breaking-changes">SemVer Breaking Changes<a aria-hidden="true" class="anchor-heading icon-link" href="#semver-breaking-changes"></a></h1>
+<h1 id="what-is-a-breaking-change">What is a Breaking Change?<a aria-hidden="true" class="anchor-heading icon-link" href="#what-is-a-breaking-change"></a></h1>
+<p>This seems easy, but what does "breaking" mean? <a href="/blog/notes/hyrums-law">Hyrum's Law</a> says that at some usage level, any behavior in your system is depended upon by downstream users. </p>
+<p>This means that, if you are doing active work to your project, you'll quickly be in double- or triple-digits for your major version. Some may say this means a poor up-front design, but it ignores some real-world concerns. Let's walk through some examples:</p>
+<h2 id="behavioral-change">Behavioral Change<a aria-hidden="true" class="anchor-heading icon-link" href="#behavioral-change"></a></h2>
+<p>Initial code:</p>
+<pre><code>function doThing(text) {
+    return text.replace('&#x3C;>', 'Your Name Here');
+}
+</code></pre>
+<p>New code:</p>
+<pre><code>function doThing(text) {
+    return text
+      .replace('&#x3C;>', 'Your Name Here')
+      .replace('[]', 'Your Address Here');
+}
+</code></pre>
+<p>Contractually and by the public API, nothing has changed. It's still a <code>f(string) => string</code> function. However, users that depended upon '[]' passing through unfiltered will now experience a break.</p>
+<p>This is a breaking change, and requires a major version bump -- unless you explicitly documented that things like <code>[]</code> or <code>()</code> are future reserved tokens. </p>
+<h2 id="performance-changes">Performance Changes<a aria-hidden="true" class="anchor-heading icon-link" href="#performance-changes"></a></h2>
+<p>If you introduce a change where you have the same function, with the same shape, but the previous version executed in O(1) time, and the new version executes in O(N) time.</p>
+<p>Without any changes to the API interface itself, you're introducing a potentially breaking change. </p>
+<h2 id="automated-testing">Automated Testing<a aria-hidden="true" class="anchor-heading icon-link" href="#automated-testing"></a></h2>
+<p>Your automated test are the closest most teams have to Consumer Contract Testing. Any time a test breaks, it indicates a behavior change. Ergo, any time you fix a test, that's a major version bump. </p>
+<p>By changing the behavior of your contract (say, by fixing a bug) and updating your automated tests (to ensure new behavior persists, and to prevent regression), you are establishing a break to your API. </p>
+<h2 id="theyre-all-potentially-breaking">They're All Potentially Breaking!<a aria-hidden="true" class="anchor-heading icon-link" href="#theyre-all-potentially-breaking"></a></h2>
+<p>There's a very strong argument to be made that every change to the system is a breaking change. I know it sounds like pedantic wordplay, but we're talking about a versioning scheme whose primary purpose is to allow the automatic and error-free update of dependency upgrades (and their transitive dependencies). </p>
+<p>So long as a human is hedging the definition of a breaking change or staying at ZeroVer or somehow putting their fingers on the scale, this effort is insufficient. </p>

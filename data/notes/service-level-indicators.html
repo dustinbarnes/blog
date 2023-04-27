@@ -1,0 +1,61 @@
+<h1 id="service-level-indicators">Service-Level Indicators<a aria-hidden="true" class="anchor-heading icon-link" href="#service-level-indicators"></a></h1>
+<p>Service Level Indicators, or SLIs, are <strong><em>quantitative</em></strong> measures of an aspect of the delivered service.</p>
+<h2 id="sli-types">SLI types<a aria-hidden="true" class="anchor-heading icon-link" href="#sli-types"></a></h2>
+<p>Base SLOs on metrics that matter to the particular workload:</p>
+<ul>
+<li>Request/response workloads involve clients making requests and awaiting responses.
+<ul>
+<li>Availability -- either in terms of time or request yield, are we online and reachable?</li>
+<li>Latency -- how long does it take to return a response?</li>
+<li>Quality -- what percentage of traffic is gracefully degrading due to overload or partial outages?</li>
+</ul>
+</li>
+<li>Data processing take records as input, mutate them and emit them somewhere else.
+<ul>
+<li>Freshness -- how recent the data of the output is in relation to its inputs.</li>
+<li>Correctness -- the proportion of data generating correct output.</li>
+<li>Coverage -- the proportion of valid data processed successfully.</li>
+<li>Throughput -- the proportion of time where the processing rate is faster than a threshold.</li>
+</ul>
+</li>
+<li>Storage systems accept data for later retrieval.
+<ul>
+<li>Durability -- the proportion of written records which can be successfully read.</li>
+<li>Throughput -- the proportion of records that can be written or read within a given time unit.</li>
+<li>Latency -- the time taken for a written record to be read.</li>
+</ul>
+</li>
+</ul>
+<p>Be judicious in selection: ensure you're targeting things that users value, as there's a human cost to each metric monitored. Systems generally fit into a classification:</p>
+<ul>
+<li>User-facing systems, e.g. search engines, care about availability, latency and throughput.</li>
+<li>Storage systems emphasise latency, availability and durability.</li>
+<li>Big data systems care about throughput and end-to-end latency.</li>
+<li>All systems care about correctness, though this is outside of the SRE purview and usually lies with the product team.</li>
+</ul>
+<p>Collection is usually server-side, either using time series data or periodic log analysis. Don't forget the client-side though: richer applications are prone to slowdowns and bugs that won't be detectable from the server-side, and these still hurt user experience.</p>
+<p>Use distributions over averages for aggregation to catch long tail. Percentiles (50th, 99th and 99.9th, for instance) will show the average case whilst still allowing us to identify pathological cases.</p>
+<p>Standardising indicators allows shared understanding without having to always reason about the meaning of a metric:</p>
+<ul>
+<li>Intervals (averaged over 1 minute)</li>
+<li>Regions (all tasks in a cluster)</li>
+<li>Measurement frequency (every 10 seconds)</li>
+<li>Which transactions are included (HTTP PUTs from tool X)</li>
+<li>Acquisition (server-side, client-side)</li>
+<li>Data-access latency (time to first byte, time to last byte)</li>
+</ul>
+<p>Measurement strategies</p>
+<ul>
+<li>Application-level metrics</li>
+<li>Logs processing</li>
+<li>Frontend infrastructure metrics</li>
+<li>Synthetic clients/data</li>
+<li>Client-side instrumentation</li>
+</ul>
+<p>Verification</p>
+<ul>
+<li>Can we measure the SLIs we've created where we want to measure them, given this infrastructure?</li>
+<li>Do the SLIs adequately capture the user journey and its failure modes?</li>
+<li>Are there any exceptions or edge cases to consider?</li>
+<li>Do the SLIs capture multiple journeys with differing requirements?</li>
+</ul>

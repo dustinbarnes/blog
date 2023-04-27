@@ -1,0 +1,34 @@
+<h1 id="build-release-run">Build Release Run<a aria-hidden="true" class="anchor-heading icon-link" href="#build-release-run"></a></h1>
+<blockquote>
+<p>Strictly separate build and run stages</p>
+</blockquote>
+<ul>
+<li>
+<p>Three stages:</p>
+<ul>
+<li>
+<p><strong>Build</strong> is a transform of source code into an executable bundle called a build. Using a specified commit, this stage fetches dependencies and compiles binaries/assets.</p>
+</li>
+<li>
+<p><strong>Release</strong> takes the build produced above and combines it with a deploy's Configuration. The release contains both the build and the config, ready for immediate execution.</p>
+</li>
+<li>
+<p><strong>Run</strong> runs the app in an execution environment by launching processes against a selected release.</p>
+</li>
+<li>
+<p>Releases should be uniquely identifiable from a timestamp or version identifier.</p>
+<ul>
+<li>Releases are an append-only ledger and a release cannot be mutated once it is created. Any change must create a new release.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Shift left: the run stage should be kept as simple as possible to ensure engineers aren't required for recovery during unsociable hours.</p>
+</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/blog/notes/12-factor-app">12-Factor App</a></li>
+</ul>

@@ -1,0 +1,18 @@
+<h1 id="semver-requirements">SemVer Requirements<a aria-hidden="true" class="anchor-heading icon-link" href="#semver-requirements"></a></h1>
+<h1 id="requirements">Requirements<a aria-hidden="true" class="anchor-heading icon-link" href="#requirements"></a></h1>
+<p>There are a few things that must be done if a project or team plans to adopt SemVer</p>
+<h2 id="requirement-1-public-api">Requirement 1: Public API<a aria-hidden="true" class="anchor-heading icon-link" href="#requirement-1-public-api"></a></h2>
+<p>SemVer is very clear that you must declare a public API. However, the SemVer spec itself is relatively vague on what this means, in item 1 of the specification:</p>
+<blockquote>
+<p>Software using Semantic Versioning MUST declare a public API. This API could be declared in the code itself or exist strictly in documentation. However it is done, it SHOULD be precise and comprehensive.</p>
+</blockquote>
+<p>Note the purposeful use of MUST and SHOULD in these cases. You MUST declare a public API, but it only SHOULD be precise and comprehensive. Relaxing this requirement breaks all of SemVer, in this author's opinion. </p>
+<p>Then, item 5 in the spec comes along: </p>
+<blockquote>
+<p>Version 1.0.0 defines the public API. The way in which the version number is incremented after this release is dependent on this public API and how it changes.</p>
+</blockquote>
+<p>If we have an imprecise and non-comprehensive documentation suite, there is still a chasm of variability in what would be considered breaking or not. </p>
+<h2 id="requirement-2-not-0-version">Requirement 2: Not 0-version<a aria-hidden="true" class="anchor-heading icon-link" href="#requirement-2-not-0-version"></a></h2>
+<p>The SemVer spec in item 5 is clear that 1.0.0 is where you determine how to bump the version for future changes. So long as you keep the <code>MAJOR</code> part set to <code>0</code>, you're free to do anything you want, including breaking downstream users. </p>
+<h2 id="requirement-3-bumping-major">Requirement 3: Bumping MAJOR<a aria-hidden="true" class="anchor-heading icon-link" href="#requirement-3-bumping-major"></a></h2>
+<p>You MUST bump the major version when ANY breaking change is introduced to the public API. Yes, ANY breaking change. </p>

@@ -1,0 +1,34 @@
+<h1 id="logs">Logs<a aria-hidden="true" class="anchor-heading icon-link" href="#logs"></a></h1>
+<blockquote>
+<p>Treat logs as event streams</p>
+</blockquote>
+<ul>
+<li>Logs provide insight into a running app's behaviour.</li>
+<li>Logs are streams of aggregated, time-ordered events collected from output streams of <a href="/blog/notes/12fa-06-processes">Processes</a> and <a href="/blog/notes/12fa-04-backing-services">Backing Services</a>.
+<ul>
+<li>Raw form is typically text.</li>
+<li>We can mutate them into more structured data formats.</li>
+<li>No fixed beginning or end.</li>
+</ul>
+</li>
+<li>Apps don't concern themselves with the routing or storage of their output.
+<ul>
+<li>They write to stdout.</li>
+<li>Local execution during development allows developers to see the logs via their terminal.</li>
+<li>In deployed environments we can capture and retain this stream.
+</li>
+</ul>
+</li>
+<li>The event stream is handled by the deployment environment, enabling:
+<ul>
+<li>Finding historical events.</li>
+<li>Graphing trends.</li>
+<li>Active alerting.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/blog/notes/12-factor-app">12-Factor App</a></li>
+</ul>

@@ -1,0 +1,84 @@
+<h1 id="sre---on-call">SRE - On Call<a aria-hidden="true" class="anchor-heading icon-link" href="#sre---on-call"></a></h1>
+<p>The on-call effort is about minimising detection and resolution time. The postmortem process should raise and follow up on action items identified as causes of incidents, reducing time to next failure.</p>
+<p>Put in place tools</p>
+<ul>
+<li>Playbooks define a linear set of actions to take in response to types of incident. Aim for one entry per alert.</li>
+<li>Runbooks extend playbooks by containing conditional steps. They may be executed automatically, optionally relying on external human decision making.</li>
+</ul>
+<p>Create training roadmaps</p>
+<p>It's important to prepare engineers for their on-call shifts, so define an onboarding process. For example:</p>
+<ul>
+<li>
+<p>Administering production jobs</p>
+</li>
+<li>
+<p>Interpreting debug data</p>
+</li>
+<li>
+<p>Draining traffic from a cluster</p>
+</li>
+<li>
+<p>Rolling back a bad release</p>
+</li>
+<li>
+<p>Blocking/rate-limiting unwanted traffic</p>
+</li>
+<li>
+<p>Adding capacity: scaling up/out</p>
+</li>
+<li>
+<p>Using monitoring systems (alerting, dashboards, logs)</p>
+</li>
+<li>
+<p>Describing architecture, key components and dependencies</p>
+</li>
+<li>
+<p>Aim to build muscle memory. Running regular "wheel of misfortune" sessions may help teams gain understanding of common failure scenarios.</p>
+</li>
+</ul>
+<p>Review guidelines for process:</p>
+<ul>
+<li>Reading handoff from the previous shift at shift start.</li>
+<li>Minimise impact first, then address underlying cause.</li>
+<li>Escalate when...</li>
+<li>Send handoff to the next shift at shift end.</li>
+</ul>
+<p>Review pager load</p>
+<p>Alerts should be immediately actionable. Thoroughly test new pages before making them live.</p>
+<p>Inputs</p>
+<ul>
+<li>Production:
+<ul>
+<li>Existing bugs</li>
+<li>Newly introduced bugs</li>
+<li>Speed of new bug identification</li>
+<li>Speed of bug mitigation and removal</li>
+</ul>
+</li>
+<li>Alerting:
+<ul>
+<li>Alerting thresholds for paging alerts</li>
+<li>Introduction of new paging alerts</li>
+<li>SLO alignment with upstream services' SLOs</li>
+</ul>
+</li>
+<li>Human processes:
+<ul>
+<li>Rigour of fixes and bug follow-up</li>
+<li>Quality of data collected about paging alerts</li>
+<li>Attention paid to pager load trends</li>
+<li>Human-initiated production changes</li>
+<li>Quality of data collected on operational issues, between shifts in handoff</li>
+<li>Vigilance given to operational overload</li>
+</ul>
+</li>
+</ul>
+<p>Resolutions</p>
+<ul>
+<li>Address bugs as a priority: consider rolling back upon investigation of a bug, fixing it and then rolling forward rather than leaving known-bad releases in production. This reduces impact to the error budget. Roll out features behind flags so that they can easily be disabled when problems arise.</li>
+<li>Consider automating changes currently made by humans, allowing for greater validation and testing.</li>
+<li>Reduce identification delay by changes to alerting and the operational playbook. Practice emergency response, limit the size of releases and log changes. Know when to ask for help.</li>
+</ul>
+<p>Scheduling</p>
+<p>On-call shifts should be kept short to minimise impact on mental health. Scheduling should take into account personal circumstances in order to be fair, accommodating different social commitments and allowing for swapping of shifts in the short-term. Document the process. Tools like PagerDuty may help.</p>
+<p>Time spent on-call should be compensated, either through time off in lieu or monetary reward. Pay attention to local labour laws.</p>

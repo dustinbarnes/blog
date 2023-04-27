@@ -1,0 +1,28 @@
+<h1 id="backing-services">Backing Services<a aria-hidden="true" class="anchor-heading icon-link" href="#backing-services"></a></h1>
+<blockquote>
+<p>Treat backing services as attached resources</p>
+</blockquote>
+<ul>
+<li>Backing service is defined as any service the app consumes over the network in normal operation.
+<ul>
+<li>Datastores (databases, blob storage)</li>
+<li>Messaging/queueing</li>
+<li>Mail (SMTP, IMAP)</li>
+<li>Caching</li>
+</ul>
+</li>
+<li>No distinction between local and third-party services.
+<ul>
+<li>They're both just attached resources, accessed via a URL or some other locator using credentials stored in Configuration.</li>
+</ul>
+</li>
+<li>Misbehaving resources can be replaced without changes to code.</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/blog/notes/12-factor-app">12-Factor App</a></li>
+<li><a href="/blog/notes/12fa-11-logs">Logs</a></li>
+<li><a href="/blog/notes/12fa-07-port-binding">Port Binding</a></li>
+<li><a href="/blog/notes/12fa-06-processes">Processes</a></li>
+</ul>

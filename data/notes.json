@@ -1,0 +1,4088 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1682582676433,
+      "created": 1682582676433,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "root": {
+      "id": "root",
+      "title": "Dustin Barnes",
+      "desc": "",
+      "updated": 1681759798693,
+      "created": 1595961348801,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "3ebb4073bdee31751a155bb33051029a",
+      "links": [],
+      "anchors": {
+        "dustin-barnes": {
+          "type": "header",
+          "text": "Dustin Barnes",
+          "value": "dustin-barnes",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "articles",
+        "concepts",
+        "xufh3s1pjwin0pvew6jmu8j"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "xufh3s1pjwin0pvew6jmu8j": {
+      "id": "xufh3s1pjwin0pvew6jmu8j",
+      "title": "Tech",
+      "desc": "",
+      "updated": 1680815483189,
+      "created": 1680815483189,
+      "custom": {},
+      "fname": "tech",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "48e70c470c933457fd60488f9f507529",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "tech-philosophy",
+        "tuv6zw9wm35rdl2m788auz8",
+        "6lqg0ljskk8d5m1lggoisek",
+        "luh0gsn7u85fpi2b0czxcbo"
+      ],
+      "parent": "root",
+      "data": {}
+    },
+    "luh0gsn7u85fpi2b0czxcbo": {
+      "fname": "tech.management",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1682582675546,
+      "created": 1682582675546,
+      "id": "luh0gsn7u85fpi2b0czxcbo",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "r5etczarwtn9eo3llom6xwl",
+        "7be5gifqqxmzz0pt9mxrv04"
+      ],
+      "parent": "xufh3s1pjwin0pvew6jmu8j",
+      "data": {},
+      "title": "Management"
+    },
+    "7be5gifqqxmzz0pt9mxrv04": {
+      "id": "7be5gifqqxmzz0pt9mxrv04",
+      "title": "Prioritization",
+      "desc": "",
+      "updated": 1680897841778,
+      "created": 1680896726113,
+      "custom": {},
+      "fname": "tech.management.prioritization",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "a42f250e8329a4f9935f3f90d6b380e9",
+      "links": [
+        {
+          "from": {
+            "fname": "tech.management.consensus.brainstorming",
+            "id": "p0nz38lncqba84ptrkots1a",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 20,
+              "offset": 318
+            },
+            "end": {
+              "line": 13,
+              "column": 54,
+              "offset": 352
+            },
+            "indent": []
+          },
+          "value": "tech.management.prioritization"
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "cost-of-delay",
+        "kano-model",
+        "moscow-prioritization",
+        "stack-rank"
+      ],
+      "parent": "luh0gsn7u85fpi2b0czxcbo",
+      "data": {}
+    },
+    "stack-rank": {
+      "id": "stack-rank",
+      "title": "Stack Rank",
+      "desc": "",
+      "updated": 1680899807284,
+      "created": 1680896726106,
+      "custom": {},
+      "fname": "tech.management.prioritization.stack-rank",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "8746044b6d9c806bd284d0ff99eeb80a",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "7be5gifqqxmzz0pt9mxrv04",
+      "data": {}
+    },
+    "moscow-prioritization": {
+      "id": "moscow-prioritization",
+      "title": "Moscow",
+      "desc": "",
+      "updated": 1680899760009,
+      "created": 1680899168664,
+      "custom": {},
+      "fname": "tech.management.prioritization.moscow",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "581fc16d0a031b8ce8142d57a2f1d9ec",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "7be5gifqqxmzz0pt9mxrv04",
+      "data": {}
+    },
+    "kano-model": {
+      "id": "kano-model",
+      "title": "Kano",
+      "desc": "",
+      "updated": 1680899095522,
+      "created": 1680898617413,
+      "custom": {},
+      "fname": "tech.management.prioritization.kano",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "b1b25f0f25d38a630b66547c9510f42c",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "7be5gifqqxmzz0pt9mxrv04",
+      "data": {}
+    },
+    "cost-of-delay": {
+      "id": "cost-of-delay",
+      "title": "Cost of Delay",
+      "desc": "",
+      "updated": 1680901218929,
+      "created": 1680899931627,
+      "custom": {},
+      "fname": "tech.management.prioritization.cost-of-delay",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "e233446fc9d0dfa1b788721081ddfb90",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "7be5gifqqxmzz0pt9mxrv04",
+      "data": {}
+    },
+    "r5etczarwtn9eo3llom6xwl": {
+      "id": "r5etczarwtn9eo3llom6xwl",
+      "title": "Consensus",
+      "desc": "",
+      "updated": 1680896351507,
+      "created": 1680815483195,
+      "custom": {},
+      "fname": "tech.management.consensus",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "7afc6fed2ae7b69816d96114c03d7317",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "p0nz38lncqba84ptrkots1a",
+        "fist-of-five",
+        "consensus-voting"
+      ],
+      "parent": "luh0gsn7u85fpi2b0czxcbo",
+      "data": {}
+    },
+    "consensus-voting": {
+      "id": "consensus-voting",
+      "title": "Voting",
+      "desc": "",
+      "updated": 1680897371601,
+      "created": 1680897169413,
+      "custom": {},
+      "fname": "tech.management.consensus.voting",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "662c8012a29a1899ece7ef0269c86a5b",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "r5etczarwtn9eo3llom6xwl",
+      "data": {}
+    },
+    "fist-of-five": {
+      "id": "fist-of-five",
+      "title": "Fist of Five",
+      "desc": "",
+      "updated": 1680755465422,
+      "created": 1680755364780,
+      "custom": {},
+      "fname": "tech.management.consensus.fist-of-five",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "60172553902fe4635d59f7e4637807c6",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "r5etczarwtn9eo3llom6xwl",
+      "data": {}
+    },
+    "p0nz38lncqba84ptrkots1a": {
+      "id": "p0nz38lncqba84ptrkots1a",
+      "title": "Brainstorming",
+      "desc": "",
+      "updated": 1680896990707,
+      "created": 1680896412097,
+      "custom": {},
+      "fname": "tech.management.consensus.brainstorming",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "13a334cb28ce72ff60a70b0bba6682bc",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.management.consensus.brainstorming",
+            "id": "p0nz38lncqba84ptrkots1a",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.management.prioritization",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 20,
+              "offset": 318
+            },
+            "end": {
+              "line": 13,
+              "column": 54,
+              "offset": 352
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.management.prioritization"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "r5etczarwtn9eo3llom6xwl",
+      "data": {}
+    },
+    "6lqg0ljskk8d5m1lggoisek": {
+      "fname": "tech.config",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1682582675546,
+      "created": 1682582675546,
+      "id": "6lqg0ljskk8d5m1lggoisek",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "criteria-based-config",
+        "cuelang-config"
+      ],
+      "parent": "xufh3s1pjwin0pvew6jmu8j",
+      "data": {},
+      "title": "Config"
+    },
+    "cuelang-config": {
+      "id": "cuelang-config",
+      "title": "Cuelang",
+      "desc": "",
+      "updated": 1679862643672,
+      "created": 1679862470815,
+      "custom": {},
+      "fname": "tech.config.cuelang",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "199851e6725559c4607b271253be2995",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "6lqg0ljskk8d5m1lggoisek",
+      "data": {}
+    },
+    "criteria-based-config": {
+      "id": "criteria-based-config",
+      "title": "Criteria Based",
+      "desc": "",
+      "updated": 1679862298358,
+      "created": 1679861814470,
+      "custom": {},
+      "fname": "tech.config.criteria-based",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "c003572480ce12a1e9438e462c40b9f8",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "6lqg0ljskk8d5m1lggoisek",
+      "data": {}
+    },
+    "tuv6zw9wm35rdl2m788auz8": {
+      "id": "tuv6zw9wm35rdl2m788auz8",
+      "title": "Practice",
+      "desc": "",
+      "updated": 1680815483194,
+      "created": 1680815483194,
+      "custom": {},
+      "fname": "tech.practice",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "4dddf600e698f9096ccdf26299e209fb",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "12-factor-app",
+        "15-factor-app",
+        "site-reliability-engineering"
+      ],
+      "parent": "xufh3s1pjwin0pvew6jmu8j",
+      "data": {}
+    },
+    "site-reliability-engineering": {
+      "id": "site-reliability-engineering",
+      "title": "Site Reliability Engineering (SRE)",
+      "desc": "",
+      "updated": 1680753549486,
+      "created": 1680753395447,
+      "custom": {},
+      "fname": "tech.practice.sre",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "a0cee81628e3a0bac43360cc0cf64b8c",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "sre-on-call",
+        "sre-seeks-simplicity",
+        "service-level-indicators",
+        "service-level-objectives"
+      ],
+      "parent": "tuv6zw9wm35rdl2m788auz8",
+      "data": {}
+    },
+    "service-level-objectives": {
+      "id": "service-level-objectives",
+      "title": "Service-Level Objectives",
+      "desc": "",
+      "updated": 1680754211870,
+      "created": 1680754070854,
+      "custom": {},
+      "fname": "tech.practice.sre.slo",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "6f1826e6ed719c5e64fddba805b65fbc",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "site-reliability-engineering",
+      "data": {}
+    },
+    "service-level-indicators": {
+      "id": "service-level-indicators",
+      "title": "Service-Level Indicators",
+      "desc": "",
+      "updated": 1680754043342,
+      "created": 1680753596765,
+      "custom": {},
+      "fname": "tech.practice.sre.sli",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "4ab0484dfea5e6b6d0269393b5cb8e55",
+      "links": [],
+      "anchors": {
+        "sli-types": {
+          "type": "header",
+          "text": "SLI types",
+          "value": "sli-types",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "site-reliability-engineering",
+      "data": {}
+    },
+    "sre-seeks-simplicity": {
+      "id": "sre-seeks-simplicity",
+      "title": "SRE Seeks Simplicity",
+      "desc": "",
+      "updated": 1680754458798,
+      "created": 1680754354068,
+      "custom": {},
+      "fname": "tech.practice.sre.simplicity",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "1754458bed2eb21b4260de4a666b4bb9",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "site-reliability-engineering",
+      "data": {}
+    },
+    "sre-on-call": {
+      "id": "sre-on-call",
+      "title": "SRE - On Call",
+      "desc": "",
+      "updated": 1680754796949,
+      "created": 1680754544819,
+      "custom": {},
+      "fname": "tech.practice.sre.on-call",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "ac5b1cef2d7bce792a5fcb1672d9b98f",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "site-reliability-engineering",
+      "data": {}
+    },
+    "15-factor-app": {
+      "id": "15-factor-app",
+      "title": "15-Factor App",
+      "desc": "",
+      "updated": 1680939937321,
+      "created": 1680937020400,
+      "custom": {},
+      "fname": "tech.practice.15-factor-app",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "f3bbd99afb4cc21b19ed995564d9298b",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.15-factor-app",
+            "id": "15-factor-app",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 29,
+              "offset": 29
+            },
+            "end": {
+              "line": 2,
+              "column": 60,
+              "offset": 60
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app"
+          }
+        }
+      ],
+      "anchors": {
+        "1-one-codebase": {
+          "type": "header",
+          "text": "1. One Codebase",
+          "value": "1-one-codebase",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "2-dependencies": {
+          "type": "header",
+          "text": "2. Dependencies",
+          "value": "2-dependencies",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "3-config": {
+          "type": "header",
+          "text": "3. Config",
+          "value": "3-config",
+          "line": 22,
+          "column": 0,
+          "depth": 2
+        },
+        "4-backing-services": {
+          "type": "header",
+          "text": "4. Backing Services",
+          "value": "4-backing-services",
+          "line": 29,
+          "column": 0,
+          "depth": 2
+        },
+        "5-build-release-run": {
+          "type": "header",
+          "text": "5. Build, release, run",
+          "value": "5-build-release-run",
+          "line": 37,
+          "column": 0,
+          "depth": 2
+        },
+        "6-processes": {
+          "type": "header",
+          "text": "6. Processes",
+          "value": "6-processes",
+          "line": 44,
+          "column": 0,
+          "depth": 2
+        },
+        "7-port-binding": {
+          "type": "header",
+          "text": "7. Port binding",
+          "value": "7-port-binding",
+          "line": 50,
+          "column": 0,
+          "depth": 2
+        },
+        "8-concurrency": {
+          "type": "header",
+          "text": "8. Concurrency",
+          "value": "8-concurrency",
+          "line": 56,
+          "column": 0,
+          "depth": 2
+        },
+        "9-disposability": {
+          "type": "header",
+          "text": "9. Disposability",
+          "value": "9-disposability",
+          "line": 62,
+          "column": 0,
+          "depth": 2
+        },
+        "10-devprod-parity": {
+          "type": "header",
+          "text": "10. Dev/prod parity",
+          "value": "10-devprod-parity",
+          "line": 68,
+          "column": 0,
+          "depth": 2
+        },
+        "11-logs": {
+          "type": "header",
+          "text": "11. Logs",
+          "value": "11-logs",
+          "line": 75,
+          "column": 0,
+          "depth": 2
+        },
+        "12-admin-processes": {
+          "type": "header",
+          "text": "12. Admin processes",
+          "value": "12-admin-processes",
+          "line": 81,
+          "column": 0,
+          "depth": 2
+        },
+        "13-api-first": {
+          "type": "header",
+          "text": "13. API First",
+          "value": "13-api-first",
+          "line": 86,
+          "column": 0,
+          "depth": 2
+        },
+        "14-telemetry": {
+          "type": "header",
+          "text": "14. Telemetry",
+          "value": "14-telemetry",
+          "line": 92,
+          "column": 0,
+          "depth": 2
+        },
+        "15-authentication": {
+          "type": "header",
+          "text": "15. Authentication",
+          "value": "15-authentication",
+          "line": 98,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "tuv6zw9wm35rdl2m788auz8",
+      "data": {}
+    },
+    "12-factor-app": {
+      "id": "12-factor-app",
+      "title": "12-Factor App",
+      "desc": "",
+      "updated": 1680939942022,
+      "created": 1680511900836,
+      "custom": {},
+      "fname": "tech.practice.12-factor-app",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "c30f029e7c08a1986b4375803b573681",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.codebase",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 4,
+              "offset": 974
+            },
+            "end": {
+              "line": 13,
+              "column": 44,
+              "offset": 1014
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.codebase"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.dependencies",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 4,
+              "offset": 1075
+            },
+            "end": {
+              "line": 15,
+              "column": 48,
+              "offset": 1119
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.dependencies"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.configuration",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 4,
+              "offset": 1169
+            },
+            "end": {
+              "line": 17,
+              "column": 49,
+              "offset": 1214
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.configuration"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.backing-services",
+          "position": {
+            "start": {
+              "line": 19,
+              "column": 4,
+              "offset": 1252
+            },
+            "end": {
+              "line": 19,
+              "column": 52,
+              "offset": 1300
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.backing-services"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.build-release-run",
+          "position": {
+            "start": {
+              "line": 21,
+              "column": 4,
+              "offset": 1351
+            },
+            "end": {
+              "line": 21,
+              "column": 53,
+              "offset": 1400
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.build-release-run"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.processes",
+          "position": {
+            "start": {
+              "line": 23,
+              "column": 4,
+              "offset": 1445
+            },
+            "end": {
+              "line": 23,
+              "column": 45,
+              "offset": 1486
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.processes"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.port-binding",
+          "position": {
+            "start": {
+              "line": 25,
+              "column": 4,
+              "offset": 1543
+            },
+            "end": {
+              "line": 25,
+              "column": 48,
+              "offset": 1587
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.port-binding"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.concurrency",
+          "position": {
+            "start": {
+              "line": 27,
+              "column": 4,
+              "offset": 1626
+            },
+            "end": {
+              "line": 27,
+              "column": 47,
+              "offset": 1669
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.concurrency"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.disposability",
+          "position": {
+            "start": {
+              "line": 29,
+              "column": 4,
+              "offset": 1707
+            },
+            "end": {
+              "line": 29,
+              "column": 49,
+              "offset": 1752
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.disposability"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.dev-prod-parity",
+          "position": {
+            "start": {
+              "line": 31,
+              "column": 5,
+              "offset": 1819
+            },
+            "end": {
+              "line": 31,
+              "column": 52,
+              "offset": 1866
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.dev-prod-parity"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.logs",
+          "position": {
+            "start": {
+              "line": 33,
+              "column": 5,
+              "offset": 1938
+            },
+            "end": {
+              "line": 33,
+              "column": 41,
+              "offset": 1974
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.logs"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.admin-processes",
+          "position": {
+            "start": {
+              "line": 35,
+              "column": 5,
+              "offset": 2009
+            },
+            "end": {
+              "line": 35,
+              "column": 52,
+              "offset": 2056
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.admin-processes"
+          }
+        },
+        {
+          "from": {
+            "fname": "tech.practice.15-factor-app",
+            "id": "15-factor-app",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 29,
+              "offset": 29
+            },
+            "end": {
+              "line": 2,
+              "column": 60,
+              "offset": 60
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app"
+        }
+      ],
+      "anchors": {
+        "the-12-factors": {
+          "type": "header",
+          "text": "The 12 Factors",
+          "value": "the-12-factors",
+          "line": 18,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "12fa-12-admin-processes",
+        "12fa-04-backing-services",
+        "12fa-05-build-release-run",
+        "12fa-01-codebase",
+        "12fa-08-concurrency",
+        "12fa-03-configuration",
+        "12fa-02-dependencies",
+        "12fa-10-dev-prod-parity",
+        "12fa-09-disposability",
+        "12fa-11-logs",
+        "12fa-07-port-binding",
+        "12fa-06-processes"
+      ],
+      "parent": "tuv6zw9wm35rdl2m788auz8",
+      "data": {}
+    },
+    "12fa-06-processes": {
+      "id": "12fa-06-processes",
+      "title": "Processes",
+      "desc": "",
+      "updated": 1680889777038,
+      "created": 1680548065391,
+      "custom": {},
+      "fname": "tech.practice.12-factor-app.processes",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "2ed2320164a19cd56fee8dc322d83bcb",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app.processes",
+            "id": "12fa-06-processes",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.backing-services",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 43,
+              "offset": 217
+            },
+            "end": {
+              "line": 6,
+              "column": 91,
+              "offset": 265
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.backing-services"
+          }
+        },
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 23,
+              "column": 4,
+              "offset": 1445
+            },
+            "end": {
+              "line": 23,
+              "column": 45,
+              "offset": 1486
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.processes"
+        },
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app.concurrency",
+            "id": "12fa-08-concurrency",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 3,
+              "offset": 199
+            },
+            "end": {
+              "line": 5,
+              "column": 44,
+              "offset": 240
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.processes"
+        },
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app.concurrency",
+            "id": "12fa-08-concurrency",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 14,
+              "offset": 372
+            },
+            "end": {
+              "line": 7,
+              "column": 55,
+              "offset": 413
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.processes"
+        },
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app.disposability",
+            "id": "12fa-09-disposability",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 3,
+              "offset": 65
+            },
+            "end": {
+              "line": 3,
+              "column": 44,
+              "offset": 106
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.processes"
+        },
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app.disposability",
+            "id": "12fa-09-disposability",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 3,
+              "offset": 346
+            },
+            "end": {
+              "line": 10,
+              "column": 44,
+              "offset": 387
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.processes"
+        },
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app.disposability",
+            "id": "12fa-09-disposability",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 3,
+              "offset": 548
+            },
+            "end": {
+              "line": 13,
+              "column": 44,
+              "offset": 589
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.processes"
+        },
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app.logs",
+            "id": "12fa-11-logs",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 88,
+              "offset": 173
+            },
+            "end": {
+              "line": 4,
+              "column": 129,
+              "offset": 214
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.processes"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "12-factor-app",
+      "data": {}
+    },
+    "12fa-07-port-binding": {
+      "id": "12fa-07-port-binding",
+      "title": "Port Binding",
+      "desc": "",
+      "updated": 1680889902594,
+      "created": 1680548217331,
+      "custom": {},
+      "fname": "tech.practice.12-factor-app.port-binding",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "32d67465cc6b1206a74b480651902ba7",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app.port-binding",
+            "id": "12fa-07-port-binding",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.backing-services",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 32,
+              "offset": 241
+            },
+            "end": {
+              "line": 7,
+              "column": 80,
+              "offset": 289
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.backing-services"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app.port-binding",
+            "id": "12fa-07-port-binding",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.configuration",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 135,
+              "offset": 344
+            },
+            "end": {
+              "line": 7,
+              "column": 180,
+              "offset": 389
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.configuration"
+          }
+        },
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 25,
+              "column": 4,
+              "offset": 1543
+            },
+            "end": {
+              "line": 25,
+              "column": 48,
+              "offset": 1587
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.port-binding"
+        },
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app.disposability",
+            "id": "12fa-09-disposability",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 37,
+              "offset": 445
+            },
+            "end": {
+              "line": 11,
+              "column": 86,
+              "offset": 494
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.port-binding"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "12-factor-app",
+      "data": {}
+    },
+    "12fa-11-logs": {
+      "id": "12fa-11-logs",
+      "title": "Logs",
+      "desc": "",
+      "updated": 1680890119775,
+      "created": 1680549178330,
+      "custom": {},
+      "fname": "tech.practice.12-factor-app.logs",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "d55e2ef770366250937f539b236edb42",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app.logs",
+            "id": "12fa-11-logs",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.processes",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 88,
+              "offset": 173
+            },
+            "end": {
+              "line": 4,
+              "column": 129,
+              "offset": 214
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.processes"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app.logs",
+            "id": "12fa-11-logs",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.backing-services",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 134,
+              "offset": 219
+            },
+            "end": {
+              "line": 4,
+              "column": 182,
+              "offset": 267
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.backing-services"
+          }
+        },
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 33,
+              "column": 5,
+              "offset": 1938
+            },
+            "end": {
+              "line": 33,
+              "column": 41,
+              "offset": 1974
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.logs"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "12-factor-app",
+      "data": {}
+    },
+    "12fa-09-disposability": {
+      "id": "12fa-09-disposability",
+      "title": "Disposability",
+      "desc": "",
+      "updated": 1680890212275,
+      "created": 1680548666714,
+      "custom": {},
+      "fname": "tech.practice.12-factor-app.disposability",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "04ce2780b700ecb80ef9db999300db9e",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app.disposability",
+            "id": "12fa-09-disposability",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.processes",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 3,
+              "offset": 65
+            },
+            "end": {
+              "line": 3,
+              "column": 44,
+              "offset": 106
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.processes"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app.disposability",
+            "id": "12fa-09-disposability",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.configuration",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 35,
+              "offset": 178
+            },
+            "end": {
+              "line": 5,
+              "column": 80,
+              "offset": 223
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.configuration"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app.disposability",
+            "id": "12fa-09-disposability",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.processes",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 3,
+              "offset": 346
+            },
+            "end": {
+              "line": 10,
+              "column": 44,
+              "offset": 387
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.processes"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app.disposability",
+            "id": "12fa-09-disposability",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.port-binding",
+          "alias": "port",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 37,
+              "offset": 445
+            },
+            "end": {
+              "line": 11,
+              "column": 86,
+              "offset": 494
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.port-binding"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app.disposability",
+            "id": "12fa-09-disposability",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.processes",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 3,
+              "offset": 548
+            },
+            "end": {
+              "line": 13,
+              "column": 44,
+              "offset": 589
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.processes"
+          }
+        },
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 29,
+              "column": 4,
+              "offset": 1707
+            },
+            "end": {
+              "line": 29,
+              "column": 49,
+              "offset": 1752
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.disposability"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "12-factor-app",
+      "data": {}
+    },
+    "12fa-10-dev-prod-parity": {
+      "id": "12fa-10-dev-prod-parity",
+      "title": "Dev Prod Parity",
+      "desc": "",
+      "updated": 1680549172402,
+      "created": 1680548924553,
+      "custom": {},
+      "fname": "tech.practice.12-factor-app.dev-prod-parity",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "02805d971b55e18a0a79526ca669b651",
+      "links": [
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 31,
+              "column": 5,
+              "offset": 1819
+            },
+            "end": {
+              "line": 31,
+              "column": 52,
+              "offset": 1866
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.dev-prod-parity"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "12-factor-app",
+      "data": {}
+    },
+    "12fa-02-dependencies": {
+      "id": "12fa-02-dependencies",
+      "title": "Dependencies",
+      "desc": "",
+      "updated": 1680513471728,
+      "created": 1680513158855,
+      "custom": {},
+      "fname": "tech.practice.12-factor-app.dependencies",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "ac3a84f5f5e9d5fa23404c54cc44c679",
+      "links": [
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 4,
+              "offset": 1075
+            },
+            "end": {
+              "line": 15,
+              "column": 48,
+              "offset": 1119
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.dependencies"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "12-factor-app",
+      "data": {}
+    },
+    "12fa-03-configuration": {
+      "id": "12fa-03-configuration",
+      "title": "Configuration",
+      "desc": "",
+      "updated": 1680545783650,
+      "created": 1680545634002,
+      "custom": {},
+      "fname": "tech.practice.12-factor-app.configuration",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "af9fd3d3b493ec63367c7caf6f8c038e",
+      "links": [
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 4,
+              "offset": 1169
+            },
+            "end": {
+              "line": 17,
+              "column": 49,
+              "offset": 1214
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.configuration"
+        },
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app.disposability",
+            "id": "12fa-09-disposability",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 35,
+              "offset": 178
+            },
+            "end": {
+              "line": 5,
+              "column": 80,
+              "offset": 223
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.configuration"
+        },
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app.port-binding",
+            "id": "12fa-07-port-binding",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 135,
+              "offset": 344
+            },
+            "end": {
+              "line": 7,
+              "column": 180,
+              "offset": 389
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.configuration"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "12-factor-app",
+      "data": {}
+    },
+    "12fa-08-concurrency": {
+      "id": "12fa-08-concurrency",
+      "title": "Concurrency",
+      "desc": "",
+      "updated": 1680890967400,
+      "created": 1680548436398,
+      "custom": {},
+      "fname": "tech.practice.12-factor-app.concurrency",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "d33d73a964ee10f4bcb448cb9a72a39c",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app.concurrency",
+            "id": "12fa-08-concurrency",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.processes",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 3,
+              "offset": 199
+            },
+            "end": {
+              "line": 5,
+              "column": 44,
+              "offset": 240
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.processes"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.practice.12-factor-app.concurrency",
+            "id": "12fa-08-concurrency",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.practice.12-factor-app.processes",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 14,
+              "offset": 372
+            },
+            "end": {
+              "line": 7,
+              "column": 55,
+              "offset": 413
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.practice.12-factor-app.processes"
+          }
+        },
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 27,
+              "column": 4,
+              "offset": 1626
+            },
+            "end": {
+              "line": 27,
+              "column": 47,
+              "offset": 1669
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.concurrency"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "12-factor-app",
+      "data": {}
+    },
+    "12fa-01-codebase": {
+      "id": "12fa-01-codebase",
+      "title": "Codebase",
+      "desc": "",
+      "updated": 1680548243955,
+      "created": 1680512416407,
+      "custom": {},
+      "fname": "tech.practice.12-factor-app.codebase",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "f86687eebabb33f617a100fce6f6e5be",
+      "links": [
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 4,
+              "offset": 974
+            },
+            "end": {
+              "line": 13,
+              "column": 44,
+              "offset": 1014
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.codebase"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "12-factor-app",
+      "data": {}
+    },
+    "12fa-05-build-release-run": {
+      "id": "12fa-05-build-release-run",
+      "title": "Build Release Run",
+      "desc": "",
+      "updated": 1680891096632,
+      "created": 1680547687522,
+      "custom": {},
+      "fname": "tech.practice.12-factor-app.build-release-run",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "95246469aaa23cb4004a569c0e29ccc8",
+      "links": [
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 21,
+              "column": 4,
+              "offset": 1351
+            },
+            "end": {
+              "line": 21,
+              "column": 53,
+              "offset": 1400
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.build-release-run"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "12-factor-app",
+      "data": {}
+    },
+    "12fa-04-backing-services": {
+      "id": "12fa-04-backing-services",
+      "title": "Backing Services",
+      "desc": "",
+      "updated": 1680547576599,
+      "created": 1680546326478,
+      "custom": {},
+      "fname": "tech.practice.12-factor-app.backing-services",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "802ff8478bf92e988ab4e277be9a973e",
+      "links": [
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 19,
+              "column": 4,
+              "offset": 1252
+            },
+            "end": {
+              "line": 19,
+              "column": 52,
+              "offset": 1300
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.backing-services"
+        },
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app.logs",
+            "id": "12fa-11-logs",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 134,
+              "offset": 219
+            },
+            "end": {
+              "line": 4,
+              "column": 182,
+              "offset": 267
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.backing-services"
+        },
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app.port-binding",
+            "id": "12fa-07-port-binding",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 32,
+              "offset": 241
+            },
+            "end": {
+              "line": 7,
+              "column": 80,
+              "offset": 289
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.backing-services"
+        },
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app.processes",
+            "id": "12fa-06-processes",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 43,
+              "offset": 217
+            },
+            "end": {
+              "line": 6,
+              "column": 91,
+              "offset": 265
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.backing-services"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "12-factor-app",
+      "data": {}
+    },
+    "12fa-12-admin-processes": {
+      "id": "12fa-12-admin-processes",
+      "title": "Admin Processes",
+      "desc": "",
+      "updated": 1680549514336,
+      "created": 1680549372997,
+      "custom": {},
+      "fname": "tech.practice.12-factor-app.admin-processes",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "41646de0836cbf26f769c4d9ce41be99",
+      "links": [
+        {
+          "from": {
+            "fname": "tech.practice.12-factor-app",
+            "id": "12-factor-app",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 35,
+              "column": 5,
+              "offset": 2009
+            },
+            "end": {
+              "line": 35,
+              "column": 52,
+              "offset": 2056
+            },
+            "indent": []
+          },
+          "value": "tech.practice.12-factor-app.admin-processes"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "12-factor-app",
+      "data": {}
+    },
+    "tech-philosophy": {
+      "id": "tech-philosophy",
+      "title": "Philosophy",
+      "desc": "",
+      "updated": 1680815616336,
+      "created": 1679703793657,
+      "custom": {},
+      "fname": "tech.philosophy",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "15ff1c5264ac2cb45d60334852d7356f",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "sto8l58mcryb1ff4mttq6rk",
+        "software-development-laws",
+        "shapes",
+        "software-versioning"
+      ],
+      "parent": "xufh3s1pjwin0pvew6jmu8j",
+      "data": {}
+    },
+    "software-versioning": {
+      "id": "software-versioning",
+      "title": "Versioning",
+      "desc": "",
+      "updated": 1679953586732,
+      "created": 1679892074530,
+      "custom": {},
+      "fname": "tech.philosophy.versioning",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "b4aeec3d32438a857480ae8e667376ad",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.philosophy.versioning",
+            "id": "software-versioning",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.philosophy.versioning.semver",
+          "position": {
+            "start": {
+              "line": 23,
+              "column": 4,
+              "offset": 1101
+            },
+            "end": {
+              "line": 23,
+              "column": 41,
+              "offset": 1138
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.philosophy.versioning.semver"
+          }
+        }
+      ],
+      "anchors": {
+        "what-is-the-purpose-a-software-version": {
+          "type": "header",
+          "text": "What is the Purpose a Software Version?",
+          "value": "what-is-the-purpose-a-software-version",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "what-a-version-does-not-necessarily-do": {
+          "type": "header",
+          "text": "What a Version Does Not Necessarily Do",
+          "value": "what-a-version-does-not-necessarily-do",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "tell-which-version-is-newer": {
+          "type": "header",
+          "text": "Tell which version is newer",
+          "value": "tell-which-version-is-newer",
+          "line": 15,
+          "column": 0,
+          "depth": 3
+        },
+        "tuple-of-dot-joined-numbers": {
+          "type": "header",
+          "text": "Tuple of dot-joined numbers",
+          "value": "tuple-of-dot-joined-numbers",
+          "line": 21,
+          "column": 0,
+          "depth": 2
+        },
+        "some-of-the-options": {
+          "type": "header",
+          "text": "Some of the options",
+          "value": "some-of-the-options",
+          "line": 28,
+          "column": 0,
+          "depth": 1
+        },
+        "version-differences-between-libraries-and-services": {
+          "type": "header",
+          "text": "Version Differences Between Libraries and Services",
+          "value": "version-differences-between-libraries-and-services",
+          "line": 35,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "semver"
+      ],
+      "parent": "tech-philosophy",
+      "data": {}
+    },
+    "semver": {
+      "id": "semver",
+      "title": "SemVer",
+      "desc": "",
+      "updated": 1679705114196,
+      "created": 1679703793652,
+      "custom": {},
+      "fname": "tech.philosophy.versioning.semver",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "5e978ecf178c0123ecae12153d3df923",
+      "links": [
+        {
+          "from": {
+            "fname": "tech.philosophy.versioning",
+            "id": "software-versioning",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 23,
+              "column": 4,
+              "offset": 1101
+            },
+            "end": {
+              "line": 23,
+              "column": 41,
+              "offset": 1138
+            },
+            "indent": []
+          },
+          "value": "tech.philosophy.versioning.semver"
+        }
+      ],
+      "anchors": {
+        "semver-pros-and-cons": {
+          "type": "header",
+          "text": "SemVer: Pros and Cons",
+          "value": "semver-pros-and-cons",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "semver-in-theory": {
+          "type": "header",
+          "text": "SemVer: In Theory",
+          "value": "semver-in-theory",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "the-contract-problem": {
+          "type": "header",
+          "text": "The Contract Problem",
+          "value": "the-contract-problem",
+          "line": 26,
+          "column": 0,
+          "depth": 2
+        },
+        "the-cicd-problem": {
+          "type": "header",
+          "text": "The CI/CD Problem",
+          "value": "the-cicd-problem",
+          "line": 37,
+          "column": 0,
+          "depth": 2
+        },
+        "zero-dot": {
+          "type": "header",
+          "text": "Zero-Dot",
+          "value": "zero-dot",
+          "line": 41,
+          "column": 0,
+          "depth": 3
+        },
+        "what-does-compatibility-mean": {
+          "type": "header",
+          "text": "What does Compatibility Mean",
+          "value": "what-does-compatibility-mean",
+          "line": 52,
+          "column": 0,
+          "depth": 2
+        },
+        "your-major-version-sucks": {
+          "type": "header",
+          "text": "Your Major Version Sucks",
+          "value": "your-major-version-sucks",
+          "line": 82,
+          "column": 0,
+          "depth": 2
+        },
+        "compatibility-effort": {
+          "type": "header",
+          "text": "Compatibility Effort",
+          "value": "compatibility-effort",
+          "line": 92,
+          "column": 0,
+          "depth": 2
+        },
+        "the-cicd-alternative": {
+          "type": "header",
+          "text": "The CI/CD Alternative",
+          "value": "the-cicd-alternative",
+          "line": 98,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "g19cobmk3lnn50wk095xqeg",
+        "promise-of-semver",
+        "semver-purpose",
+        "requirements-for-semver"
+      ],
+      "parent": "software-versioning",
+      "data": {}
+    },
+    "requirements-for-semver": {
+      "id": "requirements-for-semver",
+      "title": "SemVer Requirements",
+      "desc": "",
+      "updated": 1679957306305,
+      "created": 1679954518072,
+      "custom": {},
+      "fname": "tech.philosophy.versioning.semver.requirements",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "ac3bc4d03bdf9cc5f36084d48529c538",
+      "links": [],
+      "anchors": {
+        "requirements": {
+          "type": "header",
+          "text": "Requirements",
+          "value": "requirements",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        },
+        "requirement-1-public-api": {
+          "type": "header",
+          "text": "Requirement 1: Public API",
+          "value": "requirement-1-public-api",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "requirement-2-not-0-version": {
+          "type": "header",
+          "text": "Requirement 2: Not 0-version",
+          "value": "requirement-2-not-0-version",
+          "line": 23,
+          "column": 0,
+          "depth": 2
+        },
+        "requirement-3-bumping-major": {
+          "type": "header",
+          "text": "Requirement 3: Bumping MAJOR",
+          "value": "requirement-3-bumping-major",
+          "line": 26,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "semver",
+      "data": {}
+    },
+    "semver-purpose": {
+      "id": "semver-purpose",
+      "title": "Purpose of SemVer",
+      "desc": "",
+      "updated": 1679954896969,
+      "created": 1679954792212,
+      "custom": {},
+      "fname": "tech.philosophy.versioning.semver.purpose",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "63651445be4c37891f6eb1068aee0212",
+      "links": [],
+      "anchors": {
+        "semver-purpose": {
+          "type": "header",
+          "text": "SemVer Purpose",
+          "value": "semver-purpose",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "semver",
+      "data": {}
+    },
+    "promise-of-semver": {
+      "id": "promise-of-semver",
+      "title": "Promise of SemVer",
+      "desc": "",
+      "updated": 1679954291672,
+      "created": 1679953610669,
+      "custom": {},
+      "fname": "tech.philosophy.versioning.semver.promise",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "bb16e0248f76821f3bd987822d232868",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "semver",
+      "data": {}
+    },
+    "g19cobmk3lnn50wk095xqeg": {
+      "id": "g19cobmk3lnn50wk095xqeg",
+      "title": "SemVer Breaking Changes",
+      "desc": "",
+      "updated": 1680034919517,
+      "created": 1679957276085,
+      "custom": {},
+      "fname": "tech.philosophy.versioning.semver.breaking",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "da93ce2e3d2f76ff2bb150ae62097950",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.philosophy.versioning.semver.breaking",
+            "id": "g19cobmk3lnn50wk095xqeg",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.philosophy.laws.hyrum",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 49,
+              "offset": 78
+            },
+            "end": {
+              "line": 3,
+              "column": 79,
+              "offset": 108
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tech.philosophy.laws.hyrum"
+          }
+        }
+      ],
+      "anchors": {
+        "what-is-a-breaking-change": {
+          "type": "header",
+          "text": "What is a Breaking Change?",
+          "value": "what-is-a-breaking-change",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "behavioral-change": {
+          "type": "header",
+          "text": "Behavioral Change",
+          "value": "behavioral-change",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "performance-changes": {
+          "type": "header",
+          "text": "Performance Changes",
+          "value": "performance-changes",
+          "line": 36,
+          "column": 0,
+          "depth": 2
+        },
+        "automated-testing": {
+          "type": "header",
+          "text": "Automated Testing",
+          "value": "automated-testing",
+          "line": 41,
+          "column": 0,
+          "depth": 2
+        },
+        "theyre-all-potentially-breaking": {
+          "type": "header",
+          "text": "They're All Potentially Breaking!",
+          "value": "theyre-all-potentially-breaking",
+          "line": 46,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "semver",
+      "data": {}
+    },
+    "shapes": {
+      "id": "shapes",
+      "title": "Shapes",
+      "desc": "",
+      "updated": 1680816676294,
+      "created": 1680815810826,
+      "custom": {},
+      "fname": "tech.philosophy.shapes",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "7ed604351dd13505030b4008670cbc41",
+      "links": [],
+      "anchors": {
+        "function-shapes": {
+          "type": "header",
+          "text": "Function Shapes",
+          "value": "function-shapes",
+          "line": 9,
+          "column": 0,
+          "depth": 2
+        },
+        "data-shapes": {
+          "type": "header",
+          "text": "Data Shapes",
+          "value": "data-shapes",
+          "line": 24,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "tech-philosophy",
+      "data": {}
+    },
+    "software-development-laws": {
+      "id": "software-development-laws",
+      "title": "Software Development Laws",
+      "desc": "",
+      "updated": 1680328016061,
+      "created": 1680306104036,
+      "custom": {},
+      "fname": "tech.philosophy.laws",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "55c8ed69bc42f6bb68cd4b35c2c1cf82",
+      "links": [
+        {
+          "type": "ref",
+          "from": {
+            "fname": "tech.philosophy.laws",
+            "id": "software-development-laws",
+            "vaultName": "Dendron"
+          },
+          "value": "tech.philosophy.laws.*",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 1,
+              "offset": 1
+            },
+            "end": {
+              "line": 2,
+              "column": 35,
+              "offset": 35
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tech.philosophy.laws.*",
+            "anchorHeader": "^begin"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "80-20-rule",
+        "brooks-law",
+        "conways-law",
+        "hofstadters-law",
+        "hyrums-law",
+        "murphys-law"
+      ],
+      "parent": "tech-philosophy",
+      "data": {}
+    },
+    "murphys-law": {
+      "id": "murphys-law",
+      "title": "Murphy's Law",
+      "desc": "",
+      "updated": 1680322743390,
+      "created": 1680322452473,
+      "custom": {},
+      "fname": "tech.philosophy.laws.murphy",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "aa926be41ab863f37533b21d8148d48e",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "software-development-laws",
+      "data": {}
+    },
+    "hyrums-law": {
+      "id": "hyrums-law",
+      "title": "Hyrum's Law",
+      "desc": "",
+      "updated": 1680322736366,
+      "created": 1680306104031,
+      "custom": {},
+      "fname": "tech.philosophy.laws.hyrum",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "1fd786eec12ba9e02608d27edb42e6cc",
+      "links": [
+        {
+          "from": {
+            "fname": "tech.philosophy.versioning.semver.breaking",
+            "id": "g19cobmk3lnn50wk095xqeg",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 49,
+              "offset": 78
+            },
+            "end": {
+              "line": 3,
+              "column": 79,
+              "offset": 108
+            },
+            "indent": []
+          },
+          "value": "tech.philosophy.laws.hyrum"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "software-development-laws",
+      "data": {}
+    },
+    "hofstadters-law": {
+      "id": "hofstadters-law",
+      "title": "Hofstadter's Law",
+      "desc": "",
+      "updated": 1680322692917,
+      "created": 1680322633775,
+      "custom": {},
+      "fname": "tech.philosophy.laws.hofstadter",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "27bfa9c24134a9d72f251131fd48bf15",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "software-development-laws",
+      "data": {}
+    },
+    "conways-law": {
+      "id": "conways-law",
+      "title": "Conway's Law",
+      "desc": "",
+      "updated": 1680322876718,
+      "created": 1680322756744,
+      "custom": {},
+      "fname": "tech.philosophy.laws.conway",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "4e3b40311f806e6a2a5ffa882b6a5049",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "software-development-laws",
+      "data": {}
+    },
+    "brooks-law": {
+      "id": "brooks-law",
+      "title": "Brook's Law",
+      "desc": "",
+      "updated": 1680322573139,
+      "created": 1680322517101,
+      "custom": {},
+      "fname": "tech.philosophy.laws.brooks",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "b1b37b9edce25ae21db72e10d8ed8b1e",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "software-development-laws",
+      "data": {}
+    },
+    "80-20-rule": {
+      "id": "80-20-rule",
+      "title": "80/20 Rule",
+      "desc": "",
+      "updated": 1680889707307,
+      "created": 1680816914278,
+      "custom": {},
+      "fname": "tech.philosophy.laws.80-20-rule",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "1f5e23fb240e388c2b9ec520d425e22c",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "software-development-laws",
+      "data": {}
+    },
+    "sto8l58mcryb1ff4mttq6rk": {
+      "id": "sto8l58mcryb1ff4mttq6rk",
+      "title": "The Business Value of Automated Testing",
+      "desc": "",
+      "updated": 1682480646041,
+      "created": 1679705159226,
+      "custom": {},
+      "fname": "tech.philosophy.business-value-automated-testing",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "ee7a96317df2204fa2d6ef0561aae470",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tech.philosophy.business-value-automated-testing",
+            "id": "sto8l58mcryb1ff4mttq6rk",
+            "vaultName": "Dendron"
+          },
+          "value": "articles.business-value-automated-testing",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 32,
+              "offset": 32
+            },
+            "end": {
+              "line": 2,
+              "column": 77,
+              "offset": 77
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "articles.business-value-automated-testing"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "tech-philosophy",
+      "data": {}
+    },
+    "concepts": {
+      "id": "concepts",
+      "title": "Concepts",
+      "desc": "",
+      "updated": 1682577948077,
+      "created": 1682577694639,
+      "custom": {},
+      "fname": "concepts",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "547b29873b9f2ec7b9d87e324bffffc5",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "architecture",
+        "automated-testing",
+        "continuous-delivery",
+        "continuous-integration",
+        "developer-interviews"
+      ],
+      "parent": "root",
+      "data": {}
+    },
+    "developer-interviews": {
+      "id": "developer-interviews",
+      "title": "Developer Interviews",
+      "desc": "",
+      "updated": 1682582317078,
+      "created": 1682578125311,
+      "custom": {},
+      "fname": "concepts.developer-interviews",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "3623ea6dab187b35ec1e8cd3d8fbe807",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "concepts.developer-interviews",
+            "id": "developer-interviews",
+            "vaultName": "Dendron"
+          },
+          "value": "backlog",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 42,
+              "offset": 906
+            },
+            "end": {
+              "line": 7,
+              "column": 53,
+              "offset": 917
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "backlog"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "concepts.developer-interviews",
+            "id": "developer-interviews",
+            "vaultName": "Dendron"
+          },
+          "value": "Knowledge Worker",
+          "position": {
+            "start": {
+              "line": 95,
+              "column": 266,
+              "offset": 7073
+            },
+            "end": {
+              "line": 95,
+              "column": 286,
+              "offset": 7093
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Knowledge Worker"
+          }
+        }
+      ],
+      "anchors": {
+        "what-i-look-for": {
+          "type": "header",
+          "text": "What I Look For",
+          "value": "what-i-look-for",
+          "line": 9,
+          "column": 0,
+          "depth": 1
+        },
+        "candidate-considerations": {
+          "type": "header",
+          "text": "Candidate Considerations",
+          "value": "candidate-considerations",
+          "line": 30,
+          "column": 0,
+          "depth": 1
+        },
+        "technical-interview": {
+          "type": "header",
+          "text": "Technical Interview",
+          "value": "technical-interview",
+          "line": 37,
+          "column": 0,
+          "depth": 1
+        },
+        "selected-interview-questions": {
+          "type": "header",
+          "text": "Selected Interview Questions",
+          "value": "selected-interview-questions",
+          "line": 49,
+          "column": 0,
+          "depth": 1
+        },
+        "fizzbuzz": {
+          "type": "header",
+          "text": "FizzBuzz",
+          "value": "fizzbuzz",
+          "line": 52,
+          "column": 0,
+          "depth": 2
+        },
+        "software-priorities": {
+          "type": "header",
+          "text": "Software Priorities",
+          "value": "software-priorities",
+          "line": 79,
+          "column": 0,
+          "depth": 2
+        },
+        "as-the-interviewee": {
+          "type": "header",
+          "text": "As the Interviewee",
+          "value": "as-the-interviewee",
+          "line": 92,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "concepts",
+      "data": {}
+    },
+    "continuous-integration": {
+      "id": "continuous-integration",
+      "title": "Continuous Integration",
+      "desc": "",
+      "updated": 1682578113265,
+      "created": 1682577995511,
+      "custom": {},
+      "fname": "concepts.continuous-integration",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "f613d292a73f33fa1cb873ff1f1117cb",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "concepts",
+      "data": {}
+    },
+    "continuous-delivery": {
+      "id": "continuous-delivery",
+      "title": "Continuous Delivery",
+      "desc": "",
+      "updated": 1682578004562,
+      "created": 1682577984305,
+      "custom": {},
+      "fname": "concepts.continuous-delivery",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "17e6b43869aef930fb0e57f1557ee2d3",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "concepts",
+      "data": {}
+    },
+    "automated-testing": {
+      "id": "automated-testing",
+      "title": "Automated Testing",
+      "desc": "",
+      "updated": 1682578165513,
+      "created": 1682578145921,
+      "custom": {},
+      "fname": "concepts.automated-testing",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "d09d2256e6af38990b72cb0531131d51",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "concepts",
+      "data": {}
+    },
+    "architecture": {
+      "id": "architecture",
+      "title": "Architecture",
+      "desc": "",
+      "updated": 1682582481289,
+      "created": 1682582413402,
+      "custom": {},
+      "fname": "concepts.architecture",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "29c8d4d201116dc4f363517c3457afc3",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "concepts",
+      "data": {}
+    },
+    "articles": {
+      "id": "articles",
+      "title": "Articles",
+      "desc": "",
+      "updated": 1682480207144,
+      "created": 1682480168065,
+      "custom": {},
+      "fname": "articles",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "73c97293b689b28e8c42daecdc21d593",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "articles-business-value-automated-testing",
+        "articles-java-release-process-continuous-delivery",
+        "myth-of-developer-productivity",
+        "articles.software-performance-101"
+      ],
+      "parent": "root",
+      "data": {}
+    },
+    "articles.software-performance-101": {
+      "id": "articles.software-performance-101",
+      "title": "Software Performance 101",
+      "desc": "",
+      "updated": 1682484383443,
+      "created": 1396500000000,
+      "custom": {},
+      "fname": "articles.software-performance-101",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "ea0820851493adb961433008faa94b35",
+      "links": [],
+      "anchors": {
+        "terms": {
+          "type": "header",
+          "text": "Terms",
+          "value": "terms",
+          "line": 9,
+          "column": 0,
+          "depth": 1
+        },
+        "latency-and-throughput": {
+          "type": "header",
+          "text": "Latency and Throughput",
+          "value": "latency-and-throughput",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "intertwined": {
+          "type": "header",
+          "text": "Intertwined",
+          "value": "intertwined",
+          "line": 21,
+          "column": 0,
+          "depth": 3
+        },
+        "congestion": {
+          "type": "header",
+          "text": "Congestion",
+          "value": "congestion",
+          "line": 25,
+          "column": 0,
+          "depth": 2
+        },
+        "all-together-now": {
+          "type": "header",
+          "text": "All Together Now",
+          "value": "all-together-now",
+          "line": 29,
+          "column": 0,
+          "depth": 2
+        },
+        "debrief": {
+          "type": "header",
+          "text": "Debrief",
+          "value": "debrief",
+          "line": 37,
+          "column": 0,
+          "depth": 2
+        },
+        "measuring": {
+          "type": "header",
+          "text": "Measuring",
+          "value": "measuring",
+          "line": 41,
+          "column": 0,
+          "depth": 1
+        },
+        "math": {
+          "type": "header",
+          "text": "Math",
+          "value": "math",
+          "line": 49,
+          "column": 0,
+          "depth": 2
+        },
+        "average-average-and-average": {
+          "type": "header",
+          "text": "Average, Average, and Average",
+          "value": "average-average-and-average",
+          "line": 59,
+          "column": 0,
+          "depth": 2
+        },
+        "percentiles": {
+          "type": "header",
+          "text": "Percentiles",
+          "value": "percentiles",
+          "line": 65,
+          "column": 0,
+          "depth": 2
+        },
+        "tools-of-the-trade": {
+          "type": "header",
+          "text": "Tools of the Trade",
+          "value": "tools-of-the-trade",
+          "line": 72,
+          "column": 0,
+          "depth": 2
+        },
+        "gatling": {
+          "type": "header",
+          "text": "Gatling",
+          "value": "gatling",
+          "line": 78,
+          "column": 0,
+          "depth": 3
+        },
+        "yammer-metrics": {
+          "type": "header",
+          "text": "Yammer Metrics",
+          "value": "yammer-metrics",
+          "line": 88,
+          "column": 0,
+          "depth": 3
+        },
+        "yourkit": {
+          "type": "header",
+          "text": "YourKit",
+          "value": "yourkit",
+          "line": 104,
+          "column": 0,
+          "depth": 3
+        },
+        "the-observer-effect": {
+          "type": "header",
+          "text": "The Observer Effect",
+          "value": "the-observer-effect",
+          "line": 118,
+          "column": 0,
+          "depth": 2
+        },
+        "tying-it-all-together": {
+          "type": "header",
+          "text": "Tying it All Together",
+          "value": "tying-it-all-together",
+          "line": 128,
+          "column": 0,
+          "depth": 2
+        },
+        "causes-of-bad-performance": {
+          "type": "header",
+          "text": "Causes of Bad Performance",
+          "value": "causes-of-bad-performance",
+          "line": 134,
+          "column": 0,
+          "depth": 1
+        },
+        "why": {
+          "type": "header",
+          "text": "Why?",
+          "value": "why",
+          "line": 138,
+          "column": 0,
+          "depth": 2
+        },
+        "algorithm-performance": {
+          "type": "header",
+          "text": "Algorithm Performance",
+          "value": "algorithm-performance",
+          "line": 148,
+          "column": 0,
+          "depth": 2
+        },
+        "big-o": {
+          "type": "header",
+          "text": "Big-O",
+          "value": "big-o",
+          "line": 152,
+          "column": 0,
+          "depth": 3
+        },
+        "data-structures": {
+          "type": "header",
+          "text": "Data Structures",
+          "value": "data-structures",
+          "line": 156,
+          "column": 0,
+          "depth": 3
+        },
+        "caching": {
+          "type": "header",
+          "text": "Caching",
+          "value": "caching",
+          "line": 160,
+          "column": 0,
+          "depth": 3
+        },
+        "contention": {
+          "type": "header",
+          "text": "Contention",
+          "value": "contention",
+          "line": 164,
+          "column": 0,
+          "depth": 2
+        },
+        "disk-contention": {
+          "type": "header",
+          "text": "Disk Contention",
+          "value": "disk-contention",
+          "line": 168,
+          "column": 0,
+          "depth": 3
+        },
+        "blocking-vs-non-blocking-io": {
+          "type": "header",
+          "text": "Blocking vs. Non-Blocking IO",
+          "value": "blocking-vs-non-blocking-io",
+          "line": 182,
+          "column": 0,
+          "depth": 4
+        },
+        "reducing-contention": {
+          "type": "header",
+          "text": "Reducing Contention",
+          "value": "reducing-contention",
+          "line": 188,
+          "column": 0,
+          "depth": 4
+        },
+        "network-contention": {
+          "type": "header",
+          "text": "Network Contention",
+          "value": "network-contention",
+          "line": 200,
+          "column": 0,
+          "depth": 3
+        },
+        "iftop": {
+          "type": "header",
+          "text": "iftop",
+          "value": "iftop",
+          "line": 206,
+          "column": 0,
+          "depth": 3
+        },
+        "cpu-contention": {
+          "type": "header",
+          "text": "CPU Contention",
+          "value": "cpu-contention",
+          "line": 210,
+          "column": 0,
+          "depth": 2
+        },
+        "system-load": {
+          "type": "header",
+          "text": "System Load",
+          "value": "system-load",
+          "line": 220,
+          "column": 0,
+          "depth": 3
+        },
+        "memory-contention": {
+          "type": "header",
+          "text": "Memory Contention",
+          "value": "memory-contention",
+          "line": 224,
+          "column": 0,
+          "depth": 2
+        },
+        "garbage-collection": {
+          "type": "header",
+          "text": "Garbage Collection",
+          "value": "garbage-collection",
+          "line": 232,
+          "column": 0,
+          "depth": 3
+        },
+        "memory-leaks": {
+          "type": "header",
+          "text": "Memory Leaks",
+          "value": "memory-leaks",
+          "line": 246,
+          "column": 0,
+          "depth": 3
+        },
+        "lock-contention": {
+          "type": "header",
+          "text": "Lock Contention",
+          "value": "lock-contention",
+          "line": 252,
+          "column": 0,
+          "depth": 2
+        },
+        "thread-dump": {
+          "type": "header",
+          "text": "Thread Dump",
+          "value": "thread-dump",
+          "line": 258,
+          "column": 0,
+          "depth": 3
+        },
+        "mechanical-empathy": {
+          "type": "header",
+          "text": "Mechanical Empathy",
+          "value": "mechanical-empathy",
+          "line": 264,
+          "column": 0,
+          "depth": 3
+        },
+        "lock-cost": {
+          "type": "header",
+          "text": "Lock Cost",
+          "value": "lock-cost",
+          "line": 270,
+          "column": 0,
+          "depth": 4
+        },
+        "conclusion": {
+          "type": "header",
+          "text": "Conclusion",
+          "value": "conclusion",
+          "line": 276,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "articles",
+      "data": {}
+    },
+    "myth-of-developer-productivity": {
+      "id": "myth-of-developer-productivity",
+      "title": "Myth of Developer Productivity",
+      "desc": "",
+      "updated": 1682485627715,
+      "created": 1542690000000,
+      "custom": {},
+      "fname": "articles.myth-of-developer-productivity",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "1f4a40d6ec0300e755ec210d7496b733",
+      "links": [],
+      "anchors": {
+        "why-measure": {
+          "type": "header",
+          "text": "Why measure?",
+          "value": "why-measure",
+          "line": 14,
+          "column": 0,
+          "depth": 1
+        },
+        "measuring-developers": {
+          "type": "header",
+          "text": "Measuring developers",
+          "value": "measuring-developers",
+          "line": 18,
+          "column": 0,
+          "depth": 1
+        },
+        "the-10x-developer": {
+          "type": "header",
+          "text": "The 10x developer",
+          "value": "the-10x-developer",
+          "line": 31,
+          "column": 0,
+          "depth": 1
+        },
+        "high-performers": {
+          "type": "header",
+          "text": "High performers",
+          "value": "high-performers",
+          "line": 35,
+          "column": 0,
+          "depth": 2
+        },
+        "traditional-measures": {
+          "type": "header",
+          "text": "Traditional measures",
+          "value": "traditional-measures",
+          "line": 43,
+          "column": 0,
+          "depth": 1
+        },
+        "hours-worked": {
+          "type": "header",
+          "text": "Hours worked",
+          "value": "hours-worked",
+          "line": 47,
+          "column": 0,
+          "depth": 2
+        },
+        "source-lines-of-code-sloc": {
+          "type": "header",
+          "text": "Source lines of code (SLOC)",
+          "value": "source-lines-of-code-sloc",
+          "line": 60,
+          "column": 0,
+          "depth": 2
+        },
+        "bugs-closed": {
+          "type": "header",
+          "text": "Bugs closed",
+          "value": "bugs-closed",
+          "line": 74,
+          "column": 0,
+          "depth": 2
+        },
+        "function-points": {
+          "type": "header",
+          "text": "Function points",
+          "value": "function-points",
+          "line": 78,
+          "column": 0,
+          "depth": 2
+        },
+        "defect-rate": {
+          "type": "header",
+          "text": "Defect rate",
+          "value": "defect-rate",
+          "line": 84,
+          "column": 0,
+          "depth": 2
+        },
+        "accuracy-of-estimation": {
+          "type": "header",
+          "text": "Accuracy of estimation",
+          "value": "accuracy-of-estimation",
+          "line": 100,
+          "column": 0,
+          "depth": 2
+        },
+        "story-points": {
+          "type": "header",
+          "text": "Story points",
+          "value": "story-points",
+          "line": 113,
+          "column": 0,
+          "depth": 2
+        },
+        "developer-productivity-is-a-myth": {
+          "type": "header",
+          "text": "Developer productivity is a myth",
+          "value": "developer-productivity-is-a-myth",
+          "line": 139,
+          "column": 0,
+          "depth": 1
+        },
+        "a-developers-job": {
+          "type": "header",
+          "text": "A developer’s job",
+          "value": "a-developers-job",
+          "line": 147,
+          "column": 0,
+          "depth": 1
+        },
+        "professionals": {
+          "type": "header",
+          "text": "Professionals",
+          "value": "professionals",
+          "line": 191,
+          "column": 0,
+          "depth": 1
+        },
+        "what-about-those-builders": {
+          "type": "header",
+          "text": "What about those builders?",
+          "value": "what-about-those-builders",
+          "line": 197,
+          "column": 0,
+          "depth": 1
+        },
+        "professionalism": {
+          "type": "header",
+          "text": "Professionalism",
+          "value": "professionalism",
+          "line": 203,
+          "column": 0,
+          "depth": 1
+        },
+        "doctors": {
+          "type": "header",
+          "text": "DOCTORS",
+          "value": "doctors",
+          "line": 207,
+          "column": 0,
+          "depth": 2
+        },
+        "lawyers": {
+          "type": "header",
+          "text": "Lawyers",
+          "value": "lawyers",
+          "line": 217,
+          "column": 0,
+          "depth": 2
+        },
+        "developers": {
+          "type": "header",
+          "text": "Developers",
+          "value": "developers",
+          "line": 227,
+          "column": 0,
+          "depth": 2
+        },
+        "you-promised-me-tools": {
+          "type": "header",
+          "text": "You promised me tools!",
+          "value": "you-promised-me-tools",
+          "line": 244,
+          "column": 0,
+          "depth": 1
+        },
+        "measuring-impediments": {
+          "type": "header",
+          "text": "Measuring impediments",
+          "value": "measuring-impediments",
+          "line": 248,
+          "column": 0,
+          "depth": 2
+        },
+        "time-before-delivery": {
+          "type": "header",
+          "text": "Time before delivery",
+          "value": "time-before-delivery",
+          "line": 254,
+          "column": 0,
+          "depth": 3
+        },
+        "time-in-progress": {
+          "type": "header",
+          "text": "Time in progress",
+          "value": "time-in-progress",
+          "line": 258,
+          "column": 0,
+          "depth": 3
+        },
+        "time-in-phase": {
+          "type": "header",
+          "text": "Time in phase",
+          "value": "time-in-phase",
+          "line": 262,
+          "column": 0,
+          "depth": 3
+        },
+        "flow-control": {
+          "type": "header",
+          "text": "Flow control",
+          "value": "flow-control",
+          "line": 266,
+          "column": 0,
+          "depth": 3
+        },
+        "wait-a-minute": {
+          "type": "header",
+          "text": "Wait a minute…",
+          "value": "wait-a-minute",
+          "line": 274,
+          "column": 0,
+          "depth": 1
+        },
+        "intuitions": {
+          "type": "header",
+          "text": "Intuitions",
+          "value": "intuitions",
+          "line": 289,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "articles",
+      "data": {}
+    },
+    "articles-java-release-process-continuous-delivery": {
+      "id": "articles-java-release-process-continuous-delivery",
+      "title": "Java Release Process with Continuous Delivery",
+      "desc": "",
+      "updated": 1682481604985,
+      "created": 1412578800000,
+      "custom": {},
+      "fname": "articles.java-release-process-continuous-delivery",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "25c94950bfc06250761794bdab7c1a61",
+      "links": [],
+      "anchors": {
+        "intro": {
+          "type": "header",
+          "text": "Intro",
+          "value": "intro",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "why-change": {
+          "type": "header",
+          "text": "Why Change?",
+          "value": "why-change",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "versioning": {
+          "type": "header",
+          "text": "Versioning",
+          "value": "versioning",
+          "line": 34,
+          "column": 0,
+          "depth": 2
+        },
+        "what-about-snapshots": {
+          "type": "header",
+          "text": "What about Snapshots?",
+          "value": "what-about-snapshots",
+          "line": 50,
+          "column": 0,
+          "depth": 3
+        },
+        "gotcha": {
+          "type": "header",
+          "text": "Gotcha!",
+          "value": "gotcha",
+          "line": 99,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "articles",
+      "data": {}
+    },
+    "articles-business-value-automated-testing": {
+      "id": "articles-business-value-automated-testing",
+      "title": "Business Value of Automated Testing",
+      "desc": "",
+      "updated": 1682482219838,
+      "created": 1392200000000,
+      "custom": {},
+      "fname": "articles.business-value-automated-testing",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "904d2141c102e112f54dfe566e6574dc",
+      "links": [
+        {
+          "from": {
+            "fname": "tech.philosophy.business-value-automated-testing",
+            "id": "sto8l58mcryb1ff4mttq6rk",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 32,
+              "offset": 32
+            },
+            "end": {
+              "line": 2,
+              "column": 77,
+              "offset": 77
+            },
+            "indent": []
+          },
+          "value": "articles.business-value-automated-testing"
+        }
+      ],
+      "anchors": {
+        "the-business-value-of-automated-testing": {
+          "type": "header",
+          "text": "The Business Value of Automated Testing",
+          "value": "the-business-value-of-automated-testing",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "history": {
+          "type": "header",
+          "text": "History",
+          "value": "history",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
+        "redefining-terms": {
+          "type": "header",
+          "text": "Redefining Terms",
+          "value": "redefining-terms",
+          "line": 22,
+          "column": 0,
+          "depth": 2
+        },
+        "commit-level-tests": {
+          "type": "header",
+          "text": "Commit Level Tests",
+          "value": "commit-level-tests",
+          "line": 30,
+          "column": 0,
+          "depth": 3
+        },
+        "functional-level-tests": {
+          "type": "header",
+          "text": "Functional Level Tests",
+          "value": "functional-level-tests",
+          "line": 34,
+          "column": 0,
+          "depth": 3
+        },
+        "acceptance-level-tests": {
+          "type": "header",
+          "text": "Acceptance Level Tests",
+          "value": "acceptance-level-tests",
+          "line": 38,
+          "column": 0,
+          "depth": 3
+        },
+        "validation-and-verification": {
+          "type": "header",
+          "text": "Validation and Verification",
+          "value": "validation-and-verification",
+          "line": 42,
+          "column": 0,
+          "depth": 2
+        },
+        "the-value-proposition": {
+          "type": "header",
+          "text": "The Value Proposition",
+          "value": "the-value-proposition",
+          "line": 48,
+          "column": 0,
+          "depth": 2
+        },
+        "the-extended-value-proposition": {
+          "type": "header",
+          "text": "The Extended Value Proposition",
+          "value": "the-extended-value-proposition",
+          "line": 64,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "articles",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "root",
+      "title": "Dustin Barnes",
+      "desc": "",
+      "updated": 1681759798693,
+      "created": 1595961348801,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "3ebb4073bdee31751a155bb33051029a",
+      "links": [],
+      "anchors": {
+        "dustin-barnes": {
+          "type": "header",
+          "text": "Dustin Barnes",
+          "value": "dustin-barnes",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "articles",
+        "concepts",
+        "xufh3s1pjwin0pvew6jmu8j"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "\n# Dustin Barnes\n\nThis is my digital garden. It's not monetized, there's no analytics. It's probably not great at SEO. But it's simple, it's text-based, and it's interconnected. \n\nA few things of note: \n\n- My main GitHub profile is https://github.com/dustinbarnes\n- This blog is built from https://github.com/dustinbarnes/blog. \n  - Notice the GitHub Actions powering the publish process: https://github.com/dustinbarnes/blog/blob/main/.github/workflows/publish.yml\n- My dotfiles repo: https://github.com/dustinbarnes/dotfiles\n"
+    }
+  ],
+  "noteIndex": {
+    "id": "root",
+    "title": "Dustin Barnes",
+    "desc": "",
+    "updated": 1681759798693,
+    "created": 1595961348801,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "root",
+    "type": "note",
+    "vault": {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "Dendron"
+    },
+    "contentHash": "3ebb4073bdee31751a155bb33051029a",
+    "links": [],
+    "anchors": {
+      "dustin-barnes": {
+        "type": "header",
+        "text": "Dustin Barnes",
+        "value": "dustin-barnes",
+        "line": 8,
+        "column": 0,
+        "depth": 1
+      }
+    },
+    "children": [
+      "articles",
+      "concepts",
+      "xufh3s1pjwin0pvew6jmu8j"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "\n# Dustin Barnes\n\nThis is my digital garden. It's not monetized, there's no analytics. It's probably not great at SEO. But it's simple, it's text-based, and it's interconnected. \n\nA few things of note: \n\n- My main GitHub profile is https://github.com/dustinbarnes\n- This blog is built from https://github.com/dustinbarnes/blog. \n  - Notice the GitHub Actions powering the publish process: https://github.com/dustinbarnes/blog/blob/main/.github/workflows/publish.yml\n- My dotfiles repo: https://github.com/dustinbarnes/dotfiles\n"
+  },
+  "vaults": [
+    {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "Dendron"
+    }
+  ]
+}

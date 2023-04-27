@@ -1,0 +1,98 @@
+<h1 id="15-factor-app">15-Factor App<a aria-hidden="true" class="anchor-heading icon-link" href="#15-factor-app"></a></h1>
+<p>This is an extension of the <a href="/blog/notes/12-factor-app">12-Factor App</a>, and is an update given the takeover of container technology, K8s in particular. </p>
+<h2 id="1-one-codebase">1. One Codebase<a aria-hidden="true" class="anchor-heading icon-link" href="#1-one-codebase"></a></h2>
+<ul>
+<li>A version control system like Git always tracks the fifteen-factor app.</li>
+<li>If we have multiple codebases, it’s not an app but a distributed system.</li>
+<li>If multiple apps share the same code, it violates the fifteen-factor. The solution is to add the shared code as a dependency.</li>
+<li>There is only one codebase per app, but there are many deploys of the app. The app is the same across all deploys, but different versions may be active in each deploy.</li>
+</ul>
+<h2 id="2-dependencies">2. Dependencies<a aria-hidden="true" class="anchor-heading icon-link" href="#2-dependencies"></a></h2>
+<ul>
+<li>A fifteen-factor app declares all dependencies, completely and exactly, via a dependency declaration manifest. It simplifies the setup for developers new to the app. The new developers will set up everything by running the app’s code with a deterministic build command.</li>
+<li>A fifteen-factor app doesn’t rely on the implicit existence of any system tools. If the app needs to shell out to a system tool, that tool should be vendored into the app.</li>
+</ul>
+<h2 id="3-config">3. Config<a aria-hidden="true" class="anchor-heading icon-link" href="#3-config"></a></h2>
+<ul>
+<li>Never store constants in the code. To be fifteen-factor compliant requires a strict separation of config from code.</li>
+<li>Config varies across deploys; code doesn’t.</li>
+<li>Always prefer storing the config in environment variables; environment variables are easy to change between deploys without changing any code.</li>
+<li>Environment variables are fully orthogonal to other environment variables; they are never grouped but independently managed for each deployment.</li>
+</ul>
+<h2 id="4-backing-services">4. Backing Services<a aria-hidden="true" class="anchor-heading icon-link" href="#4-backing-services"></a></h2>
+<ul>
+<li>Backing Service: any service the app consumes over the network as part of its normal operation.</li>
+<li>Systems administrators who deploy the app’s runtime manage the backing services.</li>
+<li>There are local and third-party services, and a fifteen-factor app doesn’t make any distinction between them.</li>
+<li>Deploy a fifteen-factor app should swap out a local backing service with one managed by a third party without any changes to the app’s code.</li>
+<li>Each particular backing service is a resource, called attached-resource.</li>
+</ul>
+<h2 id="5-build-release-run">5. Build, release, run<a aria-hidden="true" class="anchor-heading icon-link" href="#5-build-release-run"></a></h2>
+<ul>
+<li>The build stage is a process that converts a code repo into an executable bundle known as a build.</li>
+<li>The release stage takes the build and combines it with the deploy’s current config.</li>
+<li>The run stage runs the app in the execution environment.</li>
+<li>Each stage is strongly separated.</li>
+</ul>
+<h2 id="6-processes">6. Processes<a aria-hidden="true" class="anchor-heading icon-link" href="#6-processes"></a></h2>
+<ul>
+<li>Fifteen-factor processes are stateless and share-nothing. We have to use a stateful backing service whether we want to store any data.</li>
+<li>We can use the memory space or filesystem as a temporary, single-transaction cache.</li>
+<li>Never use sticky sessions. Never assume that anything cached in memory or disk will be available on a future request or job.</li>
+</ul>
+<h2 id="7-port-binding">7. Port binding<a aria-hidden="true" class="anchor-heading icon-link" href="#7-port-binding"></a></h2>
+<ul>
+<li>The fifteen-factor app is completely self-contained.</li>
+<li>The web application exports HTTP as a service by binding to a specific port and listening to requests coming in on that port.</li>
+<li>Note also that the port-binding approach means that one app can become the backing service for another app.</li>
+</ul>
+<h2 id="8-concurrency">8. Concurrency<a aria-hidden="true" class="anchor-heading icon-link" href="#8-concurrency"></a></h2>
+<ul>
+<li>Processes are first-class citizens.</li>
+<li>We should design our application to distribute workload across multiple processes. Individual processes can leverage a concurrency model like Thread internally.</li>
+<li>Fifteen-factor app processes should never daemonize or write PID files, instead, rely on the operating system’s process manager.</li>
+</ul>
+<h2 id="9-disposability">9. Disposability<a aria-hidden="true" class="anchor-heading icon-link" href="#9-disposability"></a></h2>
+<ul>
+<li>The application should be disposable; it means that we can start or stop it at any moment.</li>
+<li>We should aim to minimize startup time. The process should take a few seconds from the time the launch command is executed until the process is up and ready to receive requests or jobs.</li>
+<li>Processes should also be robust against sudden death. A fifteen-factor app is designed to handle unexpected terminations.</li>
+</ul>
+<h2 id="10-devprod-parity">10. Dev/prod parity<a aria-hidden="true" class="anchor-heading icon-link" href="#10-devprod-parity"></a></h2>
+<ul>
+<li>The fifteen-factor app is designed for continuous deployment by keeping the gap between development and production small.</li>
+<li>The time between deploys should be just hours than weeks.</li>
+<li>The author of the code and who deploy the application is the same person.</li>
+<li>Dev env and prod env should be as similar as possible.</li>
+</ul>
+<h2 id="11-logs">11. Logs<a aria-hidden="true" class="anchor-heading icon-link" href="#11-logs"></a></h2>
+<ul>
+<li>Logs are the stream of aggregated, time-ordered events collected from the output streams of all running processes and backing services.</li>
+<li>Fifteen-factor app never concerns itself with routing or storage of its output stream. The application should write its event stream, unbuffered to the standard output.</li>
+<li>The stream can be sent to a log indexing and analysis system like Splunk to find past events, graph trends, and active alerting.</li>
+</ul>
+<h2 id="12-admin-processes">12. Admin processes<a aria-hidden="true" class="anchor-heading icon-link" href="#12-admin-processes"></a></h2>
+<ul>
+<li>One-off admin processes should be run in an identical environment as the regular long-running processes of the app.</li>
+<li>Admin code must ship with application code to avoid synchronization issues.</li>
+</ul>
+<h2 id="13-api-first">13. API First<a aria-hidden="true" class="anchor-heading icon-link" href="#13-api-first"></a></h2>
+<ul>
+<li>We should define the service contract first to help our consumers understand what to send and receive, defining a common contract.</li>
+<li>This approach enables consumers and service developers to work in parallel.</li>
+<li>It helps avoid bottlenecks and facilitates the virtualization of the APIs so the consumers can run the tests against the mocks.</li>
+</ul>
+<h2 id="14-telemetry">14. Telemetry<a aria-hidden="true" class="anchor-heading icon-link" href="#14-telemetry"></a></h2>
+<ul>
+<li>Monitoring our microservices, containers, and env help us to scale, self-heal and manage alerts for end-users and platform operators.</li>
+<li>We can use machine learning towards those metrics to derive future business strategies.</li>
+<li>We can observe the application’s performance, stream of events and data, health checks, when the application starts, scales, and so on.</li>
+</ul>
+<h2 id="15-authentication">15. Authentication<a aria-hidden="true" class="anchor-heading icon-link" href="#15-authentication"></a></h2>
+<ul>
+<li>Make sure all security policies are in place. Developers tend to underestimate the importance that security has.</li>
+<li>APIs should be secured using OAuth, RBAC, etc.</li>
+<li>Web content should be exposed externally on HTTPS</li>
+<li>MFA</li>
+<li>Database protection</li>
+</ul>

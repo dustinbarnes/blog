@@ -1,0 +1,36 @@
+<h1 id="disposability">Disposability<a aria-hidden="true" class="anchor-heading icon-link" href="#disposability"></a></h1>
+<blockquote>
+<p>Maximize robustness with fast startup and graceful shutdown</p>
+</blockquote>
+<ul>
+<li><a href="/blog/notes/12fa-06-processes">Processes</a> are dispoable.
+<ul>
+<li>Elastic scaling</li>
+<li>Rapid deployment of code or <a href="/blog/notes/12fa-03-configuration">Configuration</a></li>
+</ul>
+</li>
+<li>Minimise startup time.
+<ul>
+<li>Ready in second(s) from cold</li>
+<li>Easier to relocate</li>
+<li>Easier to use spot instances</li>
+</ul>
+</li>
+<li><a href="/blog/notes/12fa-06-processes">Processes</a> shut down gracefully
+<ul>
+<li>Stop listening on the service <a href="/blog/notes/12fa-07-port-binding">port</a></li>
+<li>Let current transactions complete (draining)</li>
+</ul>
+</li>
+<li><a href="/blog/notes/12fa-06-processes">Processes</a> should be robust against sudden death in case of hardware failure:
+<ul>
+<li>Queueing backend</li>
+<li>Return jobs to the queue on failure.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/blog/notes/12-factor-app">12-Factor App</a></li>
+</ul>

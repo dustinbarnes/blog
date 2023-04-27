@@ -1,0 +1,632 @@
+{
+  "roots": [
+    {
+      "key": "articles",
+      "title": "Articles",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "Dendron",
+      "children": [
+        {
+          "key": "articles-business-value-automated-testing",
+          "title": "Business Value of Automated Testing",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "children": []
+        },
+        {
+          "key": "articles-java-release-process-continuous-delivery",
+          "title": "Java Release Process with Continuous Delivery",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "children": []
+        },
+        {
+          "key": "myth-of-developer-productivity",
+          "title": "Myth of Developer Productivity",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "children": []
+        },
+        {
+          "key": "articles.software-performance-101",
+          "title": "Software Performance 101",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "concepts",
+      "title": "Concepts",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "Dendron",
+      "children": [
+        {
+          "key": "architecture",
+          "title": "Architecture",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "children": []
+        },
+        {
+          "key": "automated-testing",
+          "title": "Automated Testing",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "children": []
+        },
+        {
+          "key": "continuous-delivery",
+          "title": "Continuous Delivery",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "children": []
+        },
+        {
+          "key": "continuous-integration",
+          "title": "Continuous Integration",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "children": []
+        },
+        {
+          "key": "developer-interviews",
+          "title": "Developer Interviews",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "xufh3s1pjwin0pvew6jmu8j",
+      "title": "Tech",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "Dendron",
+      "children": [
+        {
+          "key": "6lqg0ljskk8d5m1lggoisek",
+          "title": "Config",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "children": [
+            {
+              "key": "criteria-based-config",
+              "title": "Criteria Based",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "children": []
+            },
+            {
+              "key": "cuelang-config",
+              "title": "Cuelang",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "luh0gsn7u85fpi2b0czxcbo",
+          "title": "Management",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "children": [
+            {
+              "key": "r5etczarwtn9eo3llom6xwl",
+              "title": "Consensus",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "children": [
+                {
+                  "key": "p0nz38lncqba84ptrkots1a",
+                  "title": "Brainstorming",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "fist-of-five",
+                  "title": "Fist of Five",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "consensus-voting",
+                  "title": "Voting",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "7be5gifqqxmzz0pt9mxrv04",
+              "title": "Prioritization",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "children": [
+                {
+                  "key": "cost-of-delay",
+                  "title": "Cost of Delay",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "kano-model",
+                  "title": "Kano",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "moscow-prioritization",
+                  "title": "Moscow",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "stack-rank",
+                  "title": "Stack Rank",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "tech-philosophy",
+          "title": "Philosophy",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "children": [
+            {
+              "key": "sto8l58mcryb1ff4mttq6rk",
+              "title": "The Business Value of Automated Testing",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "children": []
+            },
+            {
+              "key": "software-development-laws",
+              "title": "Software Development Laws",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "children": [
+                {
+                  "key": "80-20-rule",
+                  "title": "80/20 Rule",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "brooks-law",
+                  "title": "Brook's Law",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "conways-law",
+                  "title": "Conway's Law",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "hofstadters-law",
+                  "title": "Hofstadter's Law",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "hyrums-law",
+                  "title": "Hyrum's Law",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "murphys-law",
+                  "title": "Murphy's Law",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "shapes",
+              "title": "Shapes",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "children": []
+            },
+            {
+              "key": "software-versioning",
+              "title": "Versioning",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "children": [
+                {
+                  "key": "semver",
+                  "title": "SemVer",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": [
+                    {
+                      "key": "g19cobmk3lnn50wk095xqeg",
+                      "title": "SemVer Breaking Changes",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "Dendron",
+                      "children": []
+                    },
+                    {
+                      "key": "promise-of-semver",
+                      "title": "Promise of SemVer",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "Dendron",
+                      "children": []
+                    },
+                    {
+                      "key": "semver-purpose",
+                      "title": "Purpose of SemVer",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "Dendron",
+                      "children": []
+                    },
+                    {
+                      "key": "requirements-for-semver",
+                      "title": "SemVer Requirements",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "Dendron",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "tuv6zw9wm35rdl2m788auz8",
+          "title": "Practice",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "children": [
+            {
+              "key": "12-factor-app",
+              "title": "12-Factor App",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "children": [
+                {
+                  "key": "12fa-12-admin-processes",
+                  "title": "Admin Processes",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "12fa-04-backing-services",
+                  "title": "Backing Services",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "12fa-05-build-release-run",
+                  "title": "Build Release Run",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "12fa-01-codebase",
+                  "title": "Codebase",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "12fa-08-concurrency",
+                  "title": "Concurrency",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "12fa-03-configuration",
+                  "title": "Configuration",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "12fa-02-dependencies",
+                  "title": "Dependencies",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "12fa-10-dev-prod-parity",
+                  "title": "Dev Prod Parity",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "12fa-09-disposability",
+                  "title": "Disposability",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "12fa-11-logs",
+                  "title": "Logs",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "12fa-07-port-binding",
+                  "title": "Port Binding",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "12fa-06-processes",
+                  "title": "Processes",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "15-factor-app",
+              "title": "15-Factor App",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "children": []
+            },
+            {
+              "key": "site-reliability-engineering",
+              "title": "Site Reliability Engineering (SRE)",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "children": [
+                {
+                  "key": "sre-on-call",
+                  "title": "SRE - On Call",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "sre-seeks-simplicity",
+                  "title": "SRE Seeks Simplicity",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "service-level-indicators",
+                  "title": "Service-Level Indicators",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                },
+                {
+                  "key": "service-level-objectives",
+                  "title": "Service-Level Objectives",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "articles": null,
+    "articles-business-value-automated-testing": "articles",
+    "articles-java-release-process-continuous-delivery": "articles",
+    "myth-of-developer-productivity": "articles",
+    "articles.software-performance-101": "articles",
+    "concepts": null,
+    "architecture": "concepts",
+    "automated-testing": "concepts",
+    "continuous-delivery": "concepts",
+    "continuous-integration": "concepts",
+    "developer-interviews": "concepts",
+    "xufh3s1pjwin0pvew6jmu8j": null,
+    "6lqg0ljskk8d5m1lggoisek": "xufh3s1pjwin0pvew6jmu8j",
+    "criteria-based-config": "6lqg0ljskk8d5m1lggoisek",
+    "cuelang-config": "6lqg0ljskk8d5m1lggoisek",
+    "luh0gsn7u85fpi2b0czxcbo": "xufh3s1pjwin0pvew6jmu8j",
+    "r5etczarwtn9eo3llom6xwl": "luh0gsn7u85fpi2b0czxcbo",
+    "p0nz38lncqba84ptrkots1a": "r5etczarwtn9eo3llom6xwl",
+    "fist-of-five": "r5etczarwtn9eo3llom6xwl",
+    "consensus-voting": "r5etczarwtn9eo3llom6xwl",
+    "7be5gifqqxmzz0pt9mxrv04": "luh0gsn7u85fpi2b0czxcbo",
+    "cost-of-delay": "7be5gifqqxmzz0pt9mxrv04",
+    "kano-model": "7be5gifqqxmzz0pt9mxrv04",
+    "moscow-prioritization": "7be5gifqqxmzz0pt9mxrv04",
+    "stack-rank": "7be5gifqqxmzz0pt9mxrv04",
+    "tech-philosophy": "xufh3s1pjwin0pvew6jmu8j",
+    "sto8l58mcryb1ff4mttq6rk": "tech-philosophy",
+    "software-development-laws": "tech-philosophy",
+    "80-20-rule": "software-development-laws",
+    "brooks-law": "software-development-laws",
+    "conways-law": "software-development-laws",
+    "hofstadters-law": "software-development-laws",
+    "hyrums-law": "software-development-laws",
+    "murphys-law": "software-development-laws",
+    "shapes": "tech-philosophy",
+    "software-versioning": "tech-philosophy",
+    "semver": "software-versioning",
+    "g19cobmk3lnn50wk095xqeg": "semver",
+    "promise-of-semver": "semver",
+    "semver-purpose": "semver",
+    "requirements-for-semver": "semver",
+    "tuv6zw9wm35rdl2m788auz8": "xufh3s1pjwin0pvew6jmu8j",
+    "12-factor-app": "tuv6zw9wm35rdl2m788auz8",
+    "12fa-12-admin-processes": "12-factor-app",
+    "12fa-04-backing-services": "12-factor-app",
+    "12fa-05-build-release-run": "12-factor-app",
+    "12fa-01-codebase": "12-factor-app",
+    "12fa-08-concurrency": "12-factor-app",
+    "12fa-03-configuration": "12-factor-app",
+    "12fa-02-dependencies": "12-factor-app",
+    "12fa-10-dev-prod-parity": "12-factor-app",
+    "12fa-09-disposability": "12-factor-app",
+    "12fa-11-logs": "12-factor-app",
+    "12fa-07-port-binding": "12-factor-app",
+    "12fa-06-processes": "12-factor-app",
+    "15-factor-app": "tuv6zw9wm35rdl2m788auz8",
+    "site-reliability-engineering": "tuv6zw9wm35rdl2m788auz8",
+    "sre-on-call": "site-reliability-engineering",
+    "sre-seeks-simplicity": "site-reliability-engineering",
+    "service-level-indicators": "site-reliability-engineering",
+    "service-level-objectives": "site-reliability-engineering"
+  },
+  "notesLabelById": {
+    "articles": "Articles",
+    "articles-business-value-automated-testing": "Business Value of Automated Testing",
+    "articles-java-release-process-continuous-delivery": "Java Release Process with Continuous Delivery",
+    "myth-of-developer-productivity": "Myth of Developer Productivity",
+    "articles.software-performance-101": "Software Performance 101",
+    "concepts": "Concepts",
+    "architecture": "Architecture",
+    "automated-testing": "Automated Testing",
+    "continuous-delivery": "Continuous Delivery",
+    "continuous-integration": "Continuous Integration",
+    "developer-interviews": "Developer Interviews",
+    "xufh3s1pjwin0pvew6jmu8j": "Tech",
+    "6lqg0ljskk8d5m1lggoisek": "Config",
+    "criteria-based-config": "Criteria Based",
+    "cuelang-config": "Cuelang",
+    "luh0gsn7u85fpi2b0czxcbo": "Management",
+    "r5etczarwtn9eo3llom6xwl": "Consensus",
+    "p0nz38lncqba84ptrkots1a": "Brainstorming",
+    "fist-of-five": "Fist of Five",
+    "consensus-voting": "Voting",
+    "7be5gifqqxmzz0pt9mxrv04": "Prioritization",
+    "cost-of-delay": "Cost of Delay",
+    "kano-model": "Kano",
+    "moscow-prioritization": "Moscow",
+    "stack-rank": "Stack Rank",
+    "tech-philosophy": "Philosophy",
+    "sto8l58mcryb1ff4mttq6rk": "The Business Value of Automated Testing",
+    "software-development-laws": "Software Development Laws",
+    "80-20-rule": "80/20 Rule",
+    "brooks-law": "Brook's Law",
+    "conways-law": "Conway's Law",
+    "hofstadters-law": "Hofstadter's Law",
+    "hyrums-law": "Hyrum's Law",
+    "murphys-law": "Murphy's Law",
+    "shapes": "Shapes",
+    "software-versioning": "Versioning",
+    "semver": "SemVer",
+    "g19cobmk3lnn50wk095xqeg": "SemVer Breaking Changes",
+    "promise-of-semver": "Promise of SemVer",
+    "semver-purpose": "Purpose of SemVer",
+    "requirements-for-semver": "SemVer Requirements",
+    "tuv6zw9wm35rdl2m788auz8": "Practice",
+    "12-factor-app": "12-Factor App",
+    "12fa-12-admin-processes": "Admin Processes",
+    "12fa-04-backing-services": "Backing Services",
+    "12fa-05-build-release-run": "Build Release Run",
+    "12fa-01-codebase": "Codebase",
+    "12fa-08-concurrency": "Concurrency",
+    "12fa-03-configuration": "Configuration",
+    "12fa-02-dependencies": "Dependencies",
+    "12fa-10-dev-prod-parity": "Dev Prod Parity",
+    "12fa-09-disposability": "Disposability",
+    "12fa-11-logs": "Logs",
+    "12fa-07-port-binding": "Port Binding",
+    "12fa-06-processes": "Processes",
+    "15-factor-app": "15-Factor App",
+    "site-reliability-engineering": "Site Reliability Engineering (SRE)",
+    "sre-on-call": "SRE - On Call",
+    "sre-seeks-simplicity": "SRE Seeks Simplicity",
+    "service-level-indicators": "Service-Level Indicators",
+    "service-level-objectives": "Service-Level Objectives"
+  }
+}

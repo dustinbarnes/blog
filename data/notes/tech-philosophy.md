@@ -1,0 +1,1 @@
+This is a collection of things that may not be quantifiable, and are often subjective. Be judicious in applying these things, as too much rigidity is far worse. 

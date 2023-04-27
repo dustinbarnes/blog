@@ -1,0 +1,20 @@
+<h1 id="shapes">Shapes<a aria-hidden="true" class="anchor-heading icon-link" href="#shapes"></a></h1>
+<p>Oftentimes I will refer to the "shape" of a function or data. The idea is that the shape of these things is how you determine compatibility. I think of this as a less-than-formal specification. </p>
+<h2 id="function-shapes">Function Shapes<a aria-hidden="true" class="anchor-heading icon-link" href="#function-shapes"></a></h2>
+<p>Function shapes are based on the inputs and outputs. It's basically the function signature. </p>
+<p>Common function shapes:</p>
+<blockquote>
+<p>Please note <code>()</code> being used to represent 'void'</p>
+</blockquote>
+<ul>
+<li>Void: <code>() -> ()</code></li>
+<li>Unary: <code>T -> R</code></li>
+<li>Binary: <code>(T, U) -> R</code></li>
+<li>Ternary: <code>(T, U, V) -> R</code></li>
+<li>Supplier: <code>() -> R</code></li>
+<li>Consumer: <code>T -> ()</code></li>
+<li>Predicate: <code>T -> bool</code></li>
+<li>Binary Prediate: <code>(T, U) -> bool</code></li>
+</ul>
+<h2 id="data-shapes">Data Shapes<a aria-hidden="true" class="anchor-heading icon-link" href="#data-shapes"></a></h2>
+<p>The shape of a dataset refers to the expected fields, expected nested objects, etc. It's an informal way of saying the format. I usually use this terminology when consuming raw REST APIs, and not using an SDK to provide schema validation or object mapping. </p>

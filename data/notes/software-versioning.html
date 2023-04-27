@@ -1,0 +1,29 @@
+<h1 id="versioning">Versioning<a aria-hidden="true" class="anchor-heading icon-link" href="#versioning"></a></h1>
+<h1 id="what-is-the-purpose-a-software-version">What is the Purpose a Software Version?<a aria-hidden="true" class="anchor-heading icon-link" href="#what-is-the-purpose-a-software-version"></a></h1>
+<p>The only actual, functional requirement of a version is that it uniquely identifies a build of software. </p>
+<p>That's all a version does. Everything else is folks applying their comfort levels and background to how it should be done. </p>
+<h2 id="what-a-version-does-not-necessarily-do">What a Version Does Not Necessarily Do<a aria-hidden="true" class="anchor-heading icon-link" href="#what-a-version-does-not-necessarily-do"></a></h2>
+<h3 id="tell-which-version-is-newer">Tell which version is newer<a aria-hidden="true" class="anchor-heading icon-link" href="#tell-which-version-is-newer"></a></h3>
+<p>This is not a requirement of a version. It's simply a practice that most people have adopted out of convenience and convention. When you're trying to figure out what version scheme to adopt, you'll likely make this a point of consideration. </p>
+<p>You might choose to drop this convention in CI/CD pipelines, as the git commit ref can often suffice as the version. </p>
+<h2 id="tuple-of-dot-joined-numbers">Tuple of dot-joined numbers<a aria-hidden="true" class="anchor-heading icon-link" href="#tuple-of-dot-joined-numbers"></a></h2>
+<p>This is a convention of the industry, but not required. Some tools version based on codenames, and most of the industry has accepted some postfix string to further classify builds (-alpha, -beta, rc1, etc)</p>
+<p>Then, you have to consider if you're zero-padding, how many items to have (3 is conventional, 2 and 4 are not uncommon). </p>
+<h1 id="some-of-the-options">Some of the options<a aria-hidden="true" class="anchor-heading icon-link" href="#some-of-the-options"></a></h1>
+<ol>
+<li><a href="/blog/notes/semver">SemVer</a></li>
+<li>CalVer</li>
+<li>ZeroVer/0ver</li>
+<li>SentimentalVer</li>
+<li>SemVer-ish</li>
+</ol>
+<h1 id="version-differences-between-libraries-and-services">Version Differences Between Libraries and Services<a aria-hidden="true" class="anchor-heading icon-link" href="#version-differences-between-libraries-and-services"></a></h1>
+<ul>
+<li>services should generally use calver</li>
+<li>libraries should use SemVer-ish</li>
+</ul>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/blog/notes/semver">SemVer</a></li>
+</ol>

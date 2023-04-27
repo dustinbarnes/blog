@@ -1,0 +1,32 @@
+<h1 id="concurrency">Concurrency<a aria-hidden="true" class="anchor-heading icon-link" href="#concurrency"></a></h1>
+<blockquote>
+<p>Scale out via the process model</p>
+</blockquote>
+<ul>
+<li>Historically we scaled via OS processes
+<ul>
+<li>Large virtual machines like JVM favour allocating one large uberprocess and facilitating concurrency via threads.</li>
+</ul>
+</li>
+<li><a href="/blog/notes/12fa-06-processes">Processes</a> are a first-class citizen.
+<ul>
+<li>HTTP requests via a web process, long-running background tasks via worker processes.</li>
+</ul>
+</li>
+<li>Individual <a href="/blog/notes/12fa-06-processes">Processes</a> can do their own multiplexing using threads/green threads.
+<ul>
+<li>Share-nothing, horizontally partitionable process model simplifies scaling out.</li>
+</ul>
+</li>
+<li>Never daemonise or write PID files.</li>
+<li>Rely on the OS process manager (e.g. systemd), cloud platform, etc.
+<ul>
+<li>The process manager should take care of output streams, crashed processes and operator-initiated events like restarts/terminations.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/blog/notes/12-factor-app">12-Factor App</a></li>
+</ul>
